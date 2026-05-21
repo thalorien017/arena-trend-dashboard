@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-05-21T16:05:44.057848",
+  "generated_at": "2026-05-21T17:05:41.074889",
   "sprouts": [
     {
-      "id": "ds23",
+      "id": "ds3",
+      "title": "📢卤蛋与菜姬·第六弹表情包上线啦！",
+      "game": "王者荣耀",
+      "commentToLikeRatio": 0.77,
+      "commentCount": 172,
+      "likeCount": 223,
+      "supplyDensity": 10000,
+      "supplyGap": false,
+      "tgi": "均衡",
+      "sourceNoteId": "6a0eadaa000000003503a4a5",
+      "sourceNoteTitle": "📢卤蛋与菜姬·第六弹表情包上线啦！",
+      "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0eadaa000000003503a4a5",
+      "taxonomy": "游戏/游戏日常",
+      "topComments": []
+    },
+    {
+      "id": "ds21",
       "title": "暗区官方还是最听劝的官方",
       "game": "暗区突围",
       "commentToLikeRatio": 0.59,
-      "commentCount": 170,
+      "commentCount": 171,
       "likeCount": 289,
       "supplyDensity": 10000,
       "supplyGap": false,
@@ -18,7 +34,7 @@
       "topComments": []
     },
     {
-      "id": "ds35",
+      "id": "ds33",
       "title": "洲际导弹：白牛！",
       "game": "DOTA2",
       "commentToLikeRatio": 0.46,
@@ -34,23 +50,7 @@
       "topComments": []
     },
     {
-      "id": "ds15",
-      "title": "新套装幻灵九尾入手实测！",
-      "game": "无畏契约",
-      "commentToLikeRatio": 0.42,
-      "commentCount": 96,
-      "likeCount": 226,
-      "supplyDensity": 10000,
-      "supplyGap": false,
-      "tgi": "均衡",
-      "sourceNoteId": "6a0e88e30000000037037ed4",
-      "sourceNoteTitle": "新套装幻灵九尾入手实测！",
-      "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e88e30000000037037ed4",
-      "taxonomy": "游戏/游戏日常",
-      "topComments": []
-    },
-    {
-      "id": "ds29",
+      "id": "ds27",
       "title": "26年第12周TOP100手游流水排行!大盘止跌！",
       "game": "穿越火线：枪战王者",
       "commentToLikeRatio": 0.42,
@@ -66,7 +66,7 @@
       "topComments": []
     },
     {
-      "id": "ds32",
+      "id": "ds30",
       "title": "比得过零氪最强轻狙M200-幻神吗？",
       "game": "穿越火线：枪战王者",
       "commentToLikeRatio": 0.42,
@@ -82,7 +82,23 @@
       "topComments": []
     },
     {
-      "id": "ds30",
+      "id": "ds15",
+      "title": "新套装幻灵九尾入手实测！",
+      "game": "无畏契约",
+      "commentToLikeRatio": 0.39,
+      "commentCount": 103,
+      "likeCount": 264,
+      "supplyDensity": 10000,
+      "supplyGap": false,
+      "tgi": "均衡",
+      "sourceNoteId": "6a0e88e30000000037037ed4",
+      "sourceNoteTitle": "新套装幻灵九尾入手实测！",
+      "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e88e30000000037037ed4",
+      "taxonomy": "游戏/游戏日常",
+      "topComments": []
+    },
+    {
+      "id": "ds28",
       "title": "第一人称射击游戏排行榜前十名",
       "game": "穿越火线：枪战王者",
       "commentToLikeRatio": 0.36,
@@ -98,11 +114,11 @@
       "topComments": []
     },
     {
-      "id": "ds12",
+      "id": "ds13",
       "title": "本来当竞小妹就够心酸了",
       "game": "英雄联盟",
       "commentToLikeRatio": 0.31,
-      "commentCount": 240,
+      "commentCount": 241,
       "likeCount": 772,
       "supplyDensity": 10000,
       "supplyGap": false,
@@ -114,12 +130,12 @@
       "topComments": []
     },
     {
-      "id": "ds34",
+      "id": "ds32",
       "title": "拍成这样能在北京找互勉么",
       "game": "DOTA2",
       "commentToLikeRatio": 0.3,
       "commentCount": 64,
-      "likeCount": 214,
+      "likeCount": 215,
       "supplyDensity": 10000,
       "supplyGap": false,
       "tgi": "女性向",
@@ -130,7 +146,7 @@
       "topComments": []
     },
     {
-      "id": "ds36",
+      "id": "ds34",
       "title": "巴西议员约战Dota2，输了直接辞职？",
       "game": "DOTA2",
       "commentToLikeRatio": 0.29,
@@ -146,12 +162,12 @@
       "topComments": []
     },
     {
-      "id": "ds25",
+      "id": "ds23",
       "title": "【暗区突围】官方光速滑跪了！取消上线！",
       "game": "暗区突围",
       "commentToLikeRatio": 0.28,
       "commentCount": 168,
-      "likeCount": 594,
+      "likeCount": 596,
       "supplyDensity": 10000,
       "supplyGap": false,
       "tgi": "均衡",
@@ -162,23 +178,7 @@
       "topComments": []
     },
     {
-      "id": "ds10",
-      "title": "特攻狙神！新版强势稳定上分阵容！爽吃🐔",
-      "game": "金铲铲之战",
-      "commentToLikeRatio": 0.24,
-      "commentCount": 297,
-      "likeCount": 1233,
-      "supplyDensity": 10000,
-      "supplyGap": false,
-      "tgi": "男性向",
-      "sourceNoteId": "6a0d908b000000000603436c",
-      "sourceNoteTitle": "特攻狙神！新版强势稳定上分阵容！爽吃🐔",
-      "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d908b000000000603436c",
-      "taxonomy": "游戏/游戏攻略",
-      "topComments": []
-    },
-    {
-      "id": "ds37",
+      "id": "ds35",
       "title": "打Dota是不是会变聪明",
       "game": "DOTA2",
       "commentToLikeRatio": 0.23,
@@ -197,9 +197,9 @@
       "id": "ds17",
       "title": "“震惊卡卡西一万年”",
       "game": "火影忍者",
-      "commentToLikeRatio": 0.19,
-      "commentCount": 86,
-      "likeCount": 445,
+      "commentToLikeRatio": 0.2,
+      "commentCount": 114,
+      "likeCount": 572,
       "supplyDensity": 10000,
       "supplyGap": false,
       "tgi": "均衡",
@@ -210,23 +210,7 @@
       "topComments": []
     },
     {
-      "id": "ds13",
-      "title": "超过瘾的花式五杀合集来了",
-      "game": "英雄联盟",
-      "commentToLikeRatio": 0.16,
-      "commentCount": 37,
-      "likeCount": 231,
-      "supplyDensity": 10000,
-      "supplyGap": false,
-      "tgi": "均衡",
-      "sourceNoteId": "6a0e75a8000000000701159d",
-      "sourceNoteTitle": "超过瘾的花式五杀合集来了",
-      "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e75a8000000000701159d",
-      "taxonomy": "游戏/游戏日常",
-      "topComments": []
-    },
-    {
-      "id": "ds38",
+      "id": "ds36",
       "title": "DOTA2屠夫",
       "game": "DOTA2",
       "commentToLikeRatio": 0.16,
@@ -238,6 +222,22 @@
       "sourceNoteId": "69f9f89a000000002301569c",
       "sourceNoteTitle": "DOTA2屠夫",
       "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69f9f89a000000002301569c",
+      "taxonomy": "游戏/游戏日常",
+      "topComments": []
+    },
+    {
+      "id": "ds14",
+      "title": "超过瘾的花式五杀合集来了",
+      "game": "英雄联盟",
+      "commentToLikeRatio": 0.15,
+      "commentCount": 40,
+      "likeCount": 266,
+      "supplyDensity": 10000,
+      "supplyGap": false,
+      "tgi": "均衡",
+      "sourceNoteId": "6a0e75a8000000000701159d",
+      "sourceNoteTitle": "超过瘾的花式五杀合集来了",
+      "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e75a8000000000701159d",
       "taxonomy": "游戏/游戏日常",
       "topComments": []
     }

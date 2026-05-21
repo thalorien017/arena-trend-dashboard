@@ -1,0 +1,597 @@
+{
+  "generatedAt": "2026-05-21T17:45:19",
+  "refreshInterval": "1h",
+  "nextRefresh": "整点自动刷新",
+  "boards": {
+    "discussionSprouts": [
+      {
+        "id": "ds1",
+        "title": "📢卤蛋与菜姬·第六弹表情包上线啦！",
+        "game": "王者荣耀",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.77,
+        "commentCount": 172,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0eadaa000000003503a4a5",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972713",
+        "analysis": "版本更新动态 · 玩家关注新机制/平衡性/玩法变化 · 王者荣耀社区讨论度高",
+        "suggestion": "促产：王者荣耀相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds2",
+        "title": "暗区官方还是最听劝的官方",
+        "game": "暗区突围",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.59,
+        "commentCount": 171,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d97b600000000080339f7",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972729",
+        "analysis": "暗区突围社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：暗区突围相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds3",
+        "title": "洲际导弹：白牛！",
+        "game": "DOTA2",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.46,
+        "commentCount": 138,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a05c987000000003603097d",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972733",
+        "analysis": "DOTA2社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：DOTA2相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds4",
+        "title": "26年第12周TOP100手游流水排行!大盘止跌！",
+        "game": "穿越火线：枪战王者",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.42,
+        "commentCount": 97,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c14ba100000000230276f7",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972736",
+        "analysis": "穿越火线：枪战王者社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：穿越火线：枪战王者相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds5",
+        "title": "比得过零氪最强轻狙M200-幻神吗？",
+        "game": "穿越火线：枪战王者",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.42,
+        "commentCount": 94,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69922233000000000c035c90",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972738",
+        "analysis": "穿越火线：枪战王者社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：穿越火线：枪战王者相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds6",
+        "title": "新套装幻灵九尾入手实测！",
+        "game": "无畏契约",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.39,
+        "commentCount": 103,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e88e30000000037037ed4",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972741",
+        "analysis": "无畏契约社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：无畏契约相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds7",
+        "title": "第一人称射击游戏排行榜前十名",
+        "game": "穿越火线：枪战王者",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.36,
+        "commentCount": 370,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c1209e00000000210061c6",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972743",
+        "analysis": "穿越火线：枪战王者社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：穿越火线：枪战王者相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds8",
+        "title": "本来当竞小妹就够心酸了",
+        "game": "英雄联盟",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.31,
+        "commentCount": 241,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e7a230000000008030616",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972750",
+        "analysis": "英雄联盟社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：英雄联盟相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds9",
+        "title": "拍成这样能在北京找互勉么",
+        "game": "DOTA2",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.3,
+        "commentCount": 64,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a06f1940000000036001d81",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972753",
+        "analysis": "DOTA2社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：DOTA2相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds10",
+        "title": "巴西议员约战Dota2，输了直接辞职？",
+        "game": "DOTA2",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.29,
+        "commentCount": 118,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a01a075000000003700d088",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972755",
+        "analysis": "DOTA2社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：DOTA2相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds11",
+        "title": "【暗区突围】官方光速滑跪了！取消上线！",
+        "game": "暗区突围",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.28,
+        "commentCount": 168,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d7add00000000350294ba",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972757",
+        "analysis": "版本更新动态 · 玩家关注新机制/平衡性/玩法变化 · 暗区突围社区讨论度高",
+        "suggestion": "促产：暗区突围相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds12",
+        "title": "打Dota是不是会变聪明",
+        "game": "DOTA2",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.23,
+        "commentCount": 277,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69fa04dd000000001a03679b",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972759",
+        "analysis": "DOTA2社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：DOTA2相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds13",
+        "title": "“震惊卡卡西一万年”",
+        "game": "火影忍者",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.2,
+        "commentCount": 114,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e7f0c000000000702ce17",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972763",
+        "analysis": "火影忍者社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：火影忍者相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds14",
+        "title": "DOTA2屠夫",
+        "game": "DOTA2",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.16,
+        "commentCount": 68,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69f9f89a000000002301569c",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972764",
+        "analysis": "DOTA2社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：DOTA2相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "ds15",
+        "title": "超过瘾的花式五杀合集来了",
+        "game": "英雄联盟",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.15,
+        "commentCount": 40,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e75a8000000000701159d",
+        "topComments": [],
+        "generatedAt": "2026-05-21T17:06:40.972766",
+        "analysis": "英雄联盟社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：英雄联盟相关图文 / 短视频模板 / 互动投票"
+      }
+    ],
+    "blueOcean": [],
+    "hotspots": [
+      {
+        "id": "h7",
+        "title": "关注格温喵🐱！",
+        "game": "英雄联盟",
+        "heatScore": 64,
+        "cumulativeNotes": 278,
+        "last24hGrowth": 68,
+        "lifecycle": "高峰期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "关注格温喵🐱！",
+            "url": "https://www.xiaohongshu.com/explore/6a0da4f8000000003601ece5",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "英雄联盟社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：英雄联盟相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "h6",
+        "title": "派克格温！新版强势稳定上分阵容！爽吃🐔",
+        "game": "金铲铲之战",
+        "heatScore": 61,
+        "cumulativeNotes": 146,
+        "last24hGrowth": 29,
+        "lifecycle": "上升期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "派克格温！新版强势稳定上分阵容！爽吃🐔",
+            "url": "https://www.xiaohongshu.com/explore/6a0c2b6200000000060337c3",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "攻略内容 · 实用性强 · 讨论上手门槛/实战效果/社区技巧交流",
+        "suggestion": "促产：技巧教学短视频 / 装备推荐合集 / 绝活展示"
+      },
+      {
+        "id": "h16",
+        "title": "截胡",
+        "game": "PUBG",
+        "heatScore": 61,
+        "cumulativeNotes": 152,
+        "last24hGrowth": 30,
+        "lifecycle": "上升期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "截胡",
+            "url": "https://www.xiaohongshu.com/explore/6a01bc500000000037037f0b",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "PUBG社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：PUBG相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "h14",
+        "title": "liz实力展示中…",
+        "game": "PUBG",
+        "heatScore": 60,
+        "cumulativeNotes": 164,
+        "last24hGrowth": 34,
+        "lifecycle": "上升期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "liz实力展示中…",
+            "url": "https://www.xiaohongshu.com/explore/6a070614000000003603077a",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "PUBG社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：PUBG相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "h21",
+        "title": "到底是谁刷到了",
+        "game": "永劫无间",
+        "heatScore": 56,
+        "cumulativeNotes": 213,
+        "last24hGrowth": 48,
+        "lifecycle": "上升期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "到底是谁刷到了",
+            "url": "https://www.xiaohongshu.com/explore/6a0db2230000000038036004",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "永劫无间社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：永劫无间相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "h1",
+        "title": "当你emo了却只会念诗……",
+        "game": "王者荣耀",
+        "heatScore": 53,
+        "cumulativeNotes": 123,
+        "last24hGrowth": 22,
+        "lifecycle": "上升期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "当你emo了却只会念诗……",
+            "url": "https://www.xiaohongshu.com/explore/6a0e914b000000003503934b",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "王者荣耀社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：王者荣耀相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "h12",
+        "title": "博人传为什么要给他改成顺产头？",
+        "game": "火影忍者",
+        "heatScore": 52,
+        "cumulativeNotes": 83,
+        "last24hGrowth": 20,
+        "lifecycle": "上升期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "博人传为什么要给他改成顺产头？",
+            "url": "https://www.xiaohongshu.com/explore/6a0de4640000000036019aea",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "火影忍者社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：火影忍者相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "h18",
+        "title": "论fps玩家的静态视力与听力",
+        "game": "暗区突围",
+        "heatScore": 52,
+        "cumulativeNotes": 106,
+        "last24hGrowth": 20,
+        "lifecycle": "上升期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "论fps玩家的静态视力与听力",
+            "url": "https://www.xiaohongshu.com/explore/6a0862a7000000003700fa2e",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "暗区突围社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：暗区突围相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "h4",
+        "title": "连续扛包五把进撤离点的成功率是多少？",
+        "game": "三角洲行动",
+        "heatScore": 51,
+        "cumulativeNotes": 112,
+        "last24hGrowth": 20,
+        "lifecycle": "上升期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "连续扛包五把进撤离点的成功率是多少？",
+            "url": "https://www.xiaohongshu.com/explore/6a0dbbb9000000000702f012",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "三角洲行动社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：三角洲行动相关图文 / 短视频模板 / 互动投票"
+      },
+      {
+        "id": "h10",
+        "title": "一期通关深海明珠防守",
+        "game": "无畏契约",
+        "heatScore": 50,
+        "cumulativeNotes": 95,
+        "last24hGrowth": 20,
+        "lifecycle": "上升期",
+        "channelType": "社区热点",
+        "internalNotes": [
+          {
+            "title": "一期通关深海明珠防守",
+            "url": "https://www.xiaohongshu.com/explore/6a0df8ce000000003701f368",
+            "platform": "小红书"
+          }
+        ],
+        "analysis": "无畏契约社区讨论 · 活跃度高 · 持续关注趋势变化",
+        "suggestion": "促产：无畏契约相关图文 / 短视频模板 / 互动投票"
+      }
+    ],
+    "esports": [
+      {
+        "topic": "EDG 时隔 470 天再夺 VCT CN 联赛冠军",
+        "game": "无畏契约",
+        "tag": "VCT CN",
+        "heatScore": 92,
+        "totalLikes": 28000,
+        "noteCount": 3,
+        "sampleNotes": [
+          {
+            "title": "冠军❗️EDG时隔470天拿下联赛冠军",
+            "url": "https://www.xiaohongshu.com/explore/6a008fd2000000000701017c",
+            "likes": 28000
+          }
+        ],
+        "analysis": "讨论方向：冠军含金量争议 · 关键局战术复盘 · 选手状态对比",
+        "suggestion": "促产方向：决胜局战术拆条短视频 · 冠军之夜赛后 vlog 模板 · 「EDG这个赛季值几分」互动投票",
+        "id": "e1"
+      },
+      {
+        "topic": "AG 超玩会 4:3 狼队 — 七局鏖战冲上热搜",
+        "game": "王者荣耀",
+        "tag": "挑战者杯",
+        "heatScore": 94,
+        "totalLikes": 45000,
+        "noteCount": 5,
+        "sampleNotes": [
+          {
+            "title": "AG超玩会 vs 狼队 巅峰对决",
+            "url": "#",
+            "likes": 12000
+          },
+          {
+            "title": "挑战者杯总决赛 AG夺冠",
+            "url": "#",
+            "likes": 15000
+          }
+        ],
+        "analysis": "讨论方向：七局鏖战战术分析 · AG vs 狼队宿命对决 · 总决赛语音/花絮回放",
+        "suggestion": "促产方向：决胜局「每一波关键团战」复盘系列 · 选手语音二创混剪 · 「你猜第几局定胜负」盲猜投票",
+        "id": "e2"
+      },
+      {
+        "topic": "BLG 第一赛段夺冠后第二赛段激战中",
+        "game": "英雄联盟",
+        "tag": "LPL",
+        "heatScore": 88,
+        "totalLikes": 32000,
+        "noteCount": 4,
+        "sampleNotes": [
+          {
+            "title": "BLG 第一赛段冠军回顾",
+            "url": "#",
+            "likes": 11000
+          },
+          {
+            "title": "LPL第二赛段组内赛前瞻",
+            "url": "#",
+            "likes": 9000
+          }
+        ],
+        "analysis": "讨论方向：BLG卫冕几率 · 新赛制影响 · 各战队实力对比",
+        "suggestion": "促产方向：第二赛段实力梯度图 · 每周赛果速递 · 「你最看好哪支战队」投票",
+        "id": "e3"
+      },
+      {
+        "topic": "TES 拿下三角洲烽火职业联赛历史首冠",
+        "game": "三角洲行动",
+        "tag": "烽火联赛",
+        "heatScore": 85,
+        "totalLikes": 18000,
+        "noteCount": 3,
+        "sampleNotes": [
+          {
+            "title": "TES战队夺得春季赛总冠军",
+            "url": "#",
+            "likes": 8000
+          },
+          {
+            "title": "烽火职业联赛五棵松首冠夜",
+            "url": "#",
+            "likes": 5000
+          }
+        ],
+        "analysis": "讨论方向：三角洲电竞首个冠军意义 · TES战队成员表现 · FPS电竞新势力",
+        "suggestion": "促产方向：三角洲电竞\"从零到冠军\"历程回顾 · 选手个人故事专访模板 · 新赛季看点前瞻",
+        "id": "e4"
+      },
+      {
+        "topic": "NBPL 春季赛落幕 · iG 永劫无间分部成立",
+        "game": "永劫无间",
+        "tag": "NBPL",
+        "heatScore": 82,
+        "totalLikes": 25000,
+        "noteCount": 3,
+        "sampleNotes": [
+          {
+            "title": "NBPL春季赛总决赛西安",
+            "url": "#",
+            "likes": 10000
+          },
+          {
+            "title": "iG成立永劫无间分部",
+            "url": "#",
+            "likes": 8000
+          }
+        ],
+        "analysis": "讨论方向：NBPL赛制改革 · iG进入永劫无间的意义 · 西安线下赛氛围",
+        "suggestion": "促产方向：NBPL赛制对比解读 · 新战队「值得关注」推荐 · 西安赛线下 vlog 模板",
+        "id": "e5"
+      },
+      {
+        "topic": "DOTA2 巴西议员约战职业选手引发热议",
+        "game": "DOTA2",
+        "tag": "国际约战",
+        "heatScore": 78,
+        "totalLikes": 15000,
+        "noteCount": 2,
+        "sampleNotes": [
+          {
+            "title": "巴西议员约战Dota2选手",
+            "url": "#",
+            "likes": 9000
+          }
+        ],
+        "analysis": "讨论方向：跨界出圈效应 · 电竞破圈的公关价值 · DOTA2 国际传播",
+        "suggestion": "促产方向：\"当议员也打电竞\"趣味选题 · 跨界人物对比图文 · DOTA2 国际出圈名场面合集",
+        "id": "e6"
+      },
+      {
+        "topic": "电竞世界杯确认落地中国 · 多项目筹备中",
+        "game": "多游戏",
+        "tag": "电竞世界杯",
+        "heatScore": 86,
+        "totalLikes": 22000,
+        "noteCount": 2,
+        "sampleNotes": [
+          {
+            "title": "电竞世界杯落地中国",
+            "url": "#",
+            "likes": 12000
+          }
+        ],
+        "analysis": "讨论方向：中国电竞国际化 · 赛制与入围规则 · 各大俱乐部备战动态",
+        "suggestion": "促产方向：「哪些项目中国有望夺冠」预测 · 电竞世界杯科普图文 · 俱乐部应援墙",
+        "id": "e7"
+      }
+    ]
+  },
+  "summary": {
+    "discussionSprouts": 15,
+    "blueOcean": 0,
+    "hotspots": 9,
+    "esports": 10,
+    "totalGames": 11
+  }
+}

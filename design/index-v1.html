@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>竞技游戏趋势看板 · Design Demo</title>
+<style>
+:root{--bg:#0d1117;--card:#161b22;--hover:#1c2333;--text:#e6edf3;--dim:#8b949e;--o:#f78166;--r:#f85149;--g:#d2a84e;--gr:#3fb950;--b:#58a6ff;--bd:#30363d}
+*{margin:0;padding:0;box-sizing:border-box}body{background:var(--bg);color:var(--text);font:14px -apple-system,BlinkMacSystemFont,sans-serif}
+.c{max-width:880px;margin:0 auto;padding:20px}
+h1{font-size:20px;margin-bottom:4px}.up{font-size:11px;color:var(--dim);margin-bottom:12px}
+.t{display:flex;gap:6px;margin:16px 0;flex-wrap:wrap}
+.tb{padding:8px 16px;border:1px solid var(--bd);border-radius:8px;background:0;color:var(--dim);cursor:pointer;font-size:13px;transition:.2s}
+.tb:hover{background:var(--hover);color:var(--text)}.tb.on{background:var(--hover);color:var(--text);border-color:var(--dim)}
+.sm{font-size:13px;color:var(--dim);margin:8px 0 16px;display:flex;gap:16px}
+.l{display:grid;gap:10px}
+.cr{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px 18px;cursor:pointer;transition:.2s}
+.cr:hover{background:var(--hover);transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.2)}
+.h{display:flex;align-items:flex-start;gap:12px;margin-bottom:10px}
+.ti{font-size:15px;font-weight:600;flex:1;line-height:1.4}
+.sc{font:800 28px/1 'Space Grotesk','SF Mono',monospace;min-width:56px;text-align:right}
+.o{color:var(--o)}.rd{color:var(--r)}.gd{color:var(--g)}
+.m{display:flex;gap:8px;font-size:12px;color:var(--dim);flex-wrap:wrap;align-items:center}
+.tg{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.tgm{background:rgba(88,166,255,.12);color:var(--b)}.tgs{background:rgba(247,129,102,.12);color:var(--o)}
+.tgr{background:rgba(248,81,73,.12);color:var(--r)}.tgl{background:rgba(63,185,80,.12);color:var(--gr)}
+.tgd{background:rgba(210,168,78,.12);color:var(--g)}.tgp{background:rgba(188,140,255,.12);color:#bc8cff}
+.tgn{background:rgba(139,148,158,.12);color:var(--dim)}
+.pb{height:3px;background:var(--bd);border-radius:2px;margin-top:8px;overflow:hidden}
+.pf{height:100%;border-radius:2px}.pfs{background:linear-gradient(90deg,var(--o),#ff7b42)}
+.pfh{background:linear-gradient(90deg,var(--r),var(--o))}
+.pfe{background:linear-gradient(90deg,var(--g),#f0c666)}
+.tc{border-left:3px solid var(--g)}
+.e{text-align:center;padding:60px 20px;color:var(--dim)}.e p{margin-top:8px}
+@keyframes fi{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}.cr{animation:fi .3s ease-out}
+</style></head><body>
+<div class="c">
+<h1>⚡ 竞技游戏趋势看板</h1>
+<div class="up">Design Demo · v3  · 16:05 更新</div>
+<div class="t">
+  <button class="tb on" onclick="sh(0)">💬 讨论苗头 <span class="tg tgs">15</span></button>
+  <button class="tb" onclick="sh(1)">🔵 蓝海选题 <span class="tg tgd">0</span></button>
+  <button class="tb" onclick="sh(2)">🔥 热点看板 <span class="tg tgr">9</span></button>
+  <button class="tb" onclick="sh(3)">🏆 赛事中心 <span class="tg tgd">10</span></button>
+</div>
+<div class="sm" id="summary"></div>
+<div class="l" id="cards"></div>
+</div>
+<div class="detail-overlay" id="ov" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:99" onclick="cl()"></div>
+<div class="detail-drawer" id="dr" style="position:fixed;top:0;right:0;width:440px;max-width:92vw;height:100vh;background:var(--bg);border-left:1px solid var(--bd);z-index:100;overflow-y:auto;padding:24px;box-shadow:-6px 0 24px rgba(0,0,0,.4);transform:translateX(100%);transition:transform .25s"></div>
+<script>
+const D = {"generatedAt": "2026-05-21T16:05:55.977083", "refreshInterval": "1h", "nextRefresh": "整点自动刷新", "boards": {"discussionSprouts": [{"id": "ds1", "title": "暗区官方还是最听劝的官方", "game": "暗区突围", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.59, "commentCount": 170, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d97b600000000080339f7", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977023"}, {"id": "ds2", "title": "洲际导弹：白牛！", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.46, "commentCount": 138, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a05c987000000003603097d", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977042"}, {"id": "ds3", "title": "新套装幻灵九尾入手实测！", "game": "无畏契约", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.42, "commentCount": 96, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e88e30000000037037ed4", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977046"}, {"id": "ds4", "title": "26年第12周TOP100手游流水排行!大盘止跌！", "game": "穿越火线：枪战王者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.42, "commentCount": 97, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c14ba100000000230276f7", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977050"}, {"id": "ds5", "title": "比得过零氪最强轻狙M200-幻神吗？", "game": "穿越火线：枪战王者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.42, "commentCount": 94, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69922233000000000c035c90", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977052"}, {"id": "ds6", "title": "第一人称射击游戏排行榜前十名", "game": "穿越火线：枪战王者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.36, "commentCount": 370, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c1209e00000000210061c6", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977054"}, {"id": "ds7", "title": "本来当竞小妹就够心酸了", "game": "英雄联盟", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.31, "commentCount": 240, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e7a230000000008030616", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977056"}, {"id": "ds8", "title": "拍成这样能在北京找互勉么", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.3, "commentCount": 64, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a06f1940000000036001d81", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977063"}, {"id": "ds9", "title": "巴西议员约战Dota2，输了直接辞职？", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.29, "commentCount": 118, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a01a075000000003700d088", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977066"}, {"id": "ds10", "title": "【暗区突围】官方光速滑跪了！取消上线！", "game": "暗区突围", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.28, "commentCount": 168, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d7add00000000350294ba", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977069"}, {"id": "ds11", "title": "特攻狙神！新版强势稳定上分阵容！爽吃🐔", "game": "金铲铲之战", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.24, "commentCount": 297, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d908b000000000603436c", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977071"}, {"id": "ds12", "title": "打Dota是不是会变聪明", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.23, "commentCount": 277, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69fa04dd000000001a03679b", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977073"}, {"id": "ds13", "title": "“震惊卡卡西一万年”", "game": "火影忍者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.19, "commentCount": 86, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e7f0c000000000702ce17", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977076"}, {"id": "ds14", "title": "超过瘾的花式五杀合集来了", "game": "英雄联盟", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.16, "commentCount": 37, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e75a8000000000701159d", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977078"}, {"id": "ds15", "title": "DOTA2屠夫", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.16, "commentCount": 68, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69f9f89a000000002301569c", "topComments": [], "generatedAt": "2026-05-21T16:05:55.977080"}], "blueOcean": [], "hotspots": [{"id": "h1", "title": "这就是讨好型coser格吗…", "game": "王者荣耀", "heatScore": 97, "cumulativeNotes": 34075, "last24hGrowth": 50963, "lifecycle": "高峰期", "channelType": "社区热点", "direction": "cos同人", "internalNotes": [{"title": "这就是讨好型coser格吗…", "url": "https://www.xiaohongshu.com/explore/6818911a000000002001ea57", "platform": "小红书"}], "generatedAt": "2026-05-21T16:04:37.051094"}, {"id": "h2", "title": "姐姐，那年东湖的雨天，我只想与你一起排位", "game": "王者荣耀", "heatScore": 97, "cumulativeNotes": 25995, "last24hGrowth": 38843, "lifecycle": "高峰期", "channelType": "社区热点", "direction": "讨论互动", "internalNotes": [{"title": "姐姐，那年东湖的雨天，我只想与", "url": "https://www.xiaohongshu.com/explore/686f77ba000000002400a0a2", "platform": "小红书"}], "generatedAt": "2026-05-21T16:04:37.051124"}, {"id": "h3", "title": "既然你两这么有缘的话，不如…", "game": "和平精英", "heatScore": 97, "cumulativeNotes": 18806, "last24hGrowth": 28060, "lifecycle": "高峰期", "channelType": "社区热点", "direction": "讨论互动", "internalNotes": [{"title": "既然你两这么有缘的话，不如…", "url": "https://www.xiaohongshu.com/explore/67dd33a4000000001d03868e", "platform": "小红书"}], "generatedAt": "2026-05-21T16:04:40.370158"}, {"id": "h4", "title": "这是属于我们的一秒钟", "game": "英雄联盟", "heatScore": 97, "cumulativeNotes": 20331, "last24hGrowth": 30346, "lifecycle": "高峰期", "channelType": "社区热点", "direction": "讨论互动", "internalNotes": [{"title": "这是属于我们的一秒钟", "url": "https://www.xiaohongshu.com/explore/69131dc400000000040227e7", "platform": "小红书"}], "generatedAt": "2026-05-21T16:04:47.415025"}, {"id": "h5", "title": "过年我就这样出cos去吃团年饭", "game": "英雄联盟", "heatScore": 97, "cumulativeNotes": 20143, "last24hGrowth": 30065, "lifecycle": "高峰期", "channelType": "社区热点", "direction": "cos同人", "internalNotes": [{"title": "过年我就这样出cos去吃团年饭", "url": "https://www.xiaohongshu.com/explore/69774ace00000000280226d3", "platform": "小红书"}], "generatedAt": "2026-05-21T16:04:47.415049"}, {"id": "h6", "title": "偷偷提前回家爸妈不敢认了怎么办！", "game": "无畏契约", "heatScore": 97, "cumulativeNotes": 20695, "last24hGrowth": 30893, "lifecycle": "高峰期", "channelType": "社区热点", "direction": "讨论互动", "internalNotes": [{"title": "偷偷提前回家爸妈不敢认了怎么办", "url": "https://www.xiaohongshu.com/explore/67986d23000000001800bf49", "platform": "小红书"}], "generatedAt": "2026-05-21T16:04:50.232399"}, {"id": "h7", "title": "瓦瓦原声又吸引到美女了", "game": "无畏契约", "heatScore": 97, "cumulativeNotes": 18235, "last24hGrowth": 27203, "lifecycle": "高峰期", "channelType": "社区热点", "direction": "讨论互动", "internalNotes": [{"title": "瓦瓦原声又吸引到美女了", "url": "https://www.xiaohongshu.com/explore/69d7a559000000002102c580", "platform": "小红书"}], "generatedAt": "2026-05-21T16:04:50.232424"}, {"id": "h8", "title": "和张凌赫打游戏是种什么体验", "game": "无畏契约", "heatScore": 97, "cumulativeNotes": 14001, "last24hGrowth": 20852, "lifecycle": "高峰期", "channelType": "社区热点", "direction": "讨论互动", "internalNotes": [{"title": "和张凌赫打游戏是种什么体验", "url": "https://www.xiaohongshu.com/explore/69898108000000001a01e359", "platform": "小红书"}], "generatedAt": "2026-05-21T16:04:50.232439"}, {"id": "h9", "title": "在职业赛场上带妹，居然还拿了冠军", "game": "PUBG", "heatScore": 97, "cumulativeNotes": 4235, "last24hGrowth": 6203, "lifecycle": "上升期", "channelType": "社区热点", "direction": "电竞赛事", "internalNotes": [{"title": "在职业赛场上带妹，居然还拿了冠", "url": "https://www.xiaohongshu.com/explore/69439b2c000000001e016eae", "platform": "小红书"}], "generatedAt": "2026-05-21T16:04:53.271242"}], "esports": [{"id": "e1", "tournament": "挑战者杯", "game": "王者荣耀", "type": "总决赛", "date": "2026-05-23", "venue": "线上", "heatScore": 95, "noteCount": 2, "totalLikes": 277936, "sampleNotes": [{"title": "挑战者杯的初衷不是强者恒强，而是勇者无畏", "url": "https://www.xiaohongshu.com/explore/6935732e000000000d00cf55", "likes": 147062}, {"title": "朵莉亚：我这是刺痛了谁？", "url": "https://www.xiaohongshu.com/explore/6957acb2000000001e0233a2", "likes": 130874}], "priority": 10, "generatedAt": "2026-05-21T16:04:37.147967"}, {"id": "e3", "tournament": "LPL", "game": "英雄联盟", "type": "第二赛段", "date": "2026-05-24", "venue": "上海", "heatScore": 95, "noteCount": 2, "totalLikes": 362050, "sampleNotes": [{"title": "手机充不进去电不是坏了，还有补救办法", "url": "https://www.xiaohongshu.com/explore/6850063c000000002101b3e2", "likes": 253505}, {"title": "她怎么把水泥往我脸上抹！", "url": "https://www.xiaohongshu.com/explore/68d1415b000000001201def7", "likes": 108545}], "priority": 9, "generatedAt": "2026-05-21T16:04:42.054357"}, {"id": "e5", "tournament": "NBPL", "game": "永劫无间", "type": "春季赛", "date": "2026-05-17", "venue": "西安", "heatScore": 95, "noteCount": 2, "totalLikes": 354041, "sampleNotes": [{"title": "人情世故的真相：酒肉朋友给你热闹...", "url": "https://www.xiaohongshu.com/explore/684177f20000000022035059", "likes": 190063}, {"title": "哇！姐姐好美啊", "url": "https://www.xiaohongshu.com/explore/68428a7a0000000021009ee4", "likes": 163978}], "priority": 8, "generatedAt": "2026-05-21T16:04:44.146618"}, {"id": "e6", "tournament": "烽火职业联赛", "game": "三角洲行动", "type": "春季赛", "date": "2026-05-16", "venue": "北京五棵松", "heatScore": 95, "noteCount": 2, "totalLikes": 64413, "sampleNotes": [{"title": "你不曾离我而去 我定将为你拼尽全力！", "url": "https://www.xiaohongshu.com/explore/6a06df5d0000000007027c2e", "likes": 32634}, {"title": "职业赛遇夺舍流多恐怖，看成成大王HG的反", "url": "https://www.xiaohongshu.com/explore/6a09074700000000370348a7", "likes": 31779}], "priority": 8, "generatedAt": "2026-05-21T16:04:45.316820"}, {"id": "e7", "tournament": "BLG", "game": "英雄联盟", "type": "第一赛段冠军", "date": "ongoing", "venue": "线上", "heatScore": 95, "noteCount": 2, "totalLikes": 162432, "sampleNotes": [{"title": "我宣布 她是世界上最好的老婆", "url": "https://www.xiaohongshu.com/explore/672649fb000000001a0344c2", "likes": 102919}, {"title": "当父母支持我打电竞", "url": "https://www.xiaohongshu.com/explore/6725f1e2000000001901890f", "likes": 59513}], "priority": 7, "generatedAt": "2026-05-21T16:04:46.198134"}, {"id": "e8", "tournament": "VCT CN", "game": "无畏契约", "type": "联赛", "date": "ongoing", "venue": "全国七城", "heatScore": 95, "noteCount": 2, "totalLikes": 12779, "sampleNotes": [{"title": "", "url": "https://www.xiaohongshu.com/explore/698008da000000000a03e613", "likes": 6808}, {"title": "", "url": "https://www.xiaohongshu.com/explore/68834e98000000002201e4d0", "likes": 5971}], "priority": 7, "generatedAt": "2026-05-21T16:04:47.231315"}, {"id": "e9", "tournament": "KPL", "game": "王者荣耀", "type": "联赛", "date": "ongoing", "venue": "线上", "heatScore": 95, "noteCount": 2, "totalLikes": 648923, "sampleNotes": [{"title": "棋逢对手乃是弈者之幸‌，想跟我下一盘棋吗", "url": "https://www.xiaohongshu.com/explore/6891ee46000000002501ef37", "likes": 361848}, {"title": "女孩子真的好美好啊！", "url": "https://www.xiaohongshu.com/explore/687991c500000000120308db", "likes": 287075}], "priority": 7, "generatedAt": "2026-05-21T16:04:48.895817"}, {"id": "e10", "tournament": "PEL", "game": "和平精英", "type": "联赛", "date": "ongoing", "venue": "线上", "heatScore": 95, "noteCount": 2, "totalLikes": 191856, "sampleNotes": [{"title": "", "url": "https://www.xiaohongshu.com/explore/68b1a572000000001d0202af", "likes": 101768}, {"title": "", "url": "https://www.xiaohongshu.com/explore/69f01a07000000003701f3b3", "likes": 90088}], "priority": 6, "generatedAt": "2026-05-21T16:04:49.824073"}, {"id": "e2", "tournament": "AG超玩会 狼队", "game": "王者荣耀", "type": "焦点战", "date": "2026-05-23", "venue": "线上", "heatScore": 54, "noteCount": 0, "totalLikes": 0, "sampleNotes": [], "priority": 9, "generatedAt": "2026-05-21T16:04:40.859455"}, {"id": "e4", "tournament": "VCT EDG", "game": "无畏契约", "type": "第一赛段", "date": "2026-05-10", "venue": "全国七城", "heatScore": 48, "noteCount": 0, "totalLikes": 0, "sampleNotes": [], "priority": 8, "generatedAt": "2026-05-21T16:04:43.309567"}]}, "summary": {"discussionSprouts": 15, "blueOcean": 0, "hotspots": 9, "esports": 10, "totalGames": 12}};
+let tab = 0;
+const f = n => n>=10000?(n/10000).toFixed(1)+'万':n>=1000?(n/1000).toFixed(1)+'k':String(n||0);
+const boards = D.boards;
+
+function sh(n) { tab=n; document.querySelectorAll('.tb').forEach((b,i)=>b.classList.toggle('on',i===n)); r(); }
+function r() {
+  const c = document.getElementById('cards'), s = document.getElementById('summary');
+  document.getElementById('ov').style.display='none';
+  document.getElementById('dr').style.transform='translateX(100%)';
+  
+  if (tab === 0) {
+    const items = boards.discussionSprouts;
+    s.innerHTML = '<strong>'+items.length+' 条讨论苗头</strong> · 信号=评论/赞比 · 覆盖 '+D.summary.totalGames+' 款游戏';
+    c.innerHTML = items.map(i => {
+      const ra = (i.commentToLikeRatio||0).toFixed(2);
+      const tg = i.tgi||'均衡', tc = tg.includes('男')?'tgm':tg.includes('女')?'tgp':'tgn';
+      return '<div class="cr" onclick="o(0,\''+i.id+'\')">'+
+        '<div class="h"><span class="ti">'+(i.title||'---')+'</span><span class="sc o">'+ra+'</span></div>'+
+        '<div class="m"><span class="tg tgm">'+i.game+'</span><span class="tg tgs">讨论苗头</span><span class="tg '+tc+'">'+tg+'</span><span style="margin-left:auto">💬 '+f(i.commentCount||0)+'</span></div>'+
+        '<div class="pb"><div class="pf pfs" style="width:'+Math.min(ra*60,100)+'%"></div></div></div>';
+    }).join('');
+  } else if (tab === 1) {
+    const items = boards.blueOcean;
+    s.innerHTML = '<strong>'+items.length+' 条蓝海选题</strong> · 站外热+供给缺口';
+    c.innerHTML = items.length ? items.map(i =>
+      '<div class="cr"><div class="h"><span class="ti">'+i.title+'</span><span class="sc o">'+(i.externalScore||'-')+'</span></div>'+
+      '<div class="m"><span class="tg tgm">'+i.game+'</span><span class="tg tgd">'+(i.direction||'待分类')+'</span><span style="color:var(--gr)">'+(i.supplyGap?'供给缺口':'')+'</span></div></div>'
+    ).join('') : '<div class="e"><p style="font-size:48px">🔵</p><p><strong>暂无蓝海选题</strong></p><p>P1 redhot-collector 关键词扩展</p></div>';
+  } else if (tab === 2) {
+    const items = boards.hotspots;
+    s.innerHTML = '<strong>'+items.length+' 条热点</strong> · 热度分排序';
+    c.innerHTML = items.map(i =>
+      '<div class="cr" onclick="o(1,\''+i.id+'\')">'+
+      '<div class="h"><span class="ti">'+i.title+'</span><span class="sc rd">'+i.heatScore+'</span></div>'+
+      '<div class="m"><span class="tg tgm">'+i.game+'</span><span class="tg tgr">'+(i.channelType||'社区热点')+'</span><span class="tg tgl">'+(i.lifecycle||'上升期')+'</span><span style="margin-left:auto">📝 '+f(i.cumulativeNotes)+' · +'+i.last24hGrowth+' 24h</span></div>'+
+      '<div class="pb"><div class="pf pfh" style="width:'+i.heatScore+'%"></div></div></div>'
+    ).join('');
+  } else {
+    const items = boards.esports;
+    s.innerHTML = '<strong>'+items.length+' 项赛事</strong> · '+items.filter(e=>e.sampleNotes&&e.sampleNotes.length).length+' 项有站内数据';
+    c.innerHTML = items.map(i => {
+      const n = i.sampleNotes&&i.sampleNotes[0];
+      return '<div class="cr tc" onclick="o(2,\''+i.id+'\')">'+
+        '<div class="h"><span class="ti">'+i.tournament+'</span><span class="sc gd">'+i.heatScore+'</span></div>'+
+        '<div class="m"><span class="tg tgm">'+i.game+'</span><span class="tg tgd">'+i.type+'</span><span>📅 '+i.date+'</span><span>📍 '+i.venue+'</span></div>'+
+        (n ? '<div class="m" style="margin-top:4px;font-size:11px">📄 '+n.title+' · '+f(n.likes)+'赞</div>' : '')+
+        '<div class="pb"><div class="pf pfe" style="width:'+i.heatScore+'%"></div></div></div>';
+    }).join('');
+  }
+}
+
+function o(type, id) {
+  const dr = document.getElementById('dr'), ov = document.getElementById('ov');
+  let item, h = '<button style="position:absolute;top:16px;right:16px;background:0;border:0;color:var(--dim);font-size:20px;cursor:pointer" onclick="cl()">✕</button>';
+  
+  if (type === 0) {
+    item = boards.discussionSprouts.find(i=>i.id===id);
+    h += '<div style="font-size:20px;font-weight:700;margin-bottom:16px;margin-top:8px">'+(item.title||'---')+'</div>';
+    h += '<div style="font:800 28px/1 Space Grotesk,monospace;color:var(--o);margin-bottom:12px">'+(item.commentToLikeRatio||0).toFixed(2)+' <span style="font-size:13px;color:var(--dim);font-weight:400">评论/赞比</span></div>';
+    h += '<div style="display:flex;gap:8px;margin-bottom:8px;font-size:13px"><span>💬 '+f(item.commentCount||0)+' 评论</span></div>';
+    h += '<div style="display:flex;gap:8px;margin:12px 0"><span class="tg tgm">'+item.game+'</span><span class="tg '+(item.tgi&&item.tgi.includes('男')?'tgm':item.tgi&&item.tgi.includes('女')?'tgp':'tgn')+'">'+(item.tgi||'均衡')+'</span></div>';
+    if (item.sourceNoteUrl) h += '<div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--bd)"><h3 style="font-size:12px;color:var(--dim);margin-bottom:10px">样本笔记</h3><a class="nl" style="display:block;padding:10px;background:var(--card);border:1px solid var(--bd);border-radius:8px;margin-bottom:8px;text-decoration:none;color:var(--text);font-size:13px" href="'+item.sourceNoteUrl+'" target="_blank">'+(item.title||'')+'<div class="np" style="font-size:11px;color:var(--dim);margin-top:3px">小红书 · 点击打开</div></a></div>';
+  } else if (type === 1) {
+    item = boards.hotspots.find(i=>i.id===id);
+    h += '<div style="font-size:20px;font-weight:700;margin-bottom:16px;margin-top:8px">'+item.title+'</div>';
+    h += '<div style="font:800 28px/1 Space Grotesk,monospace;color:var(--r);margin-bottom:12px">'+item.heatScore+' <span style="font-size:13px;color:var(--dim);font-weight:400">热度分</span></div>';
+    h += '<div style="display:flex;gap:8px;margin:12px 0"><span class="tg tgl">'+item.lifecycle+'</span><span class="tg tgr">'+(item.channelType||'社区热点')+'</span><span class="tg tgm">'+item.game+'</span></div>';
+    h += '<div style="font-size:13px;margin-bottom:8px">📝 '+f(item.cumulativeNotes)+' 笔记 · 📈 +'+(item.last24hGrowth||0)+' 24h</div>';
+    if (item.internalNotes&&item.internalNotes.length) {
+      h += '<div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--bd)"><h3 style="font-size:12px;color:var(--dim);margin-bottom:10px">样本笔记</h3>';
+      item.internalNotes.forEach(n => h += '<a class="nl" style="display:block;padding:10px;background:var(--card);border:1px solid var(--bd);border-radius:8px;margin-bottom:8px;text-decoration:none;color:var(--text);font-size:13px" href="'+n.url+'" target="_blank">'+n.title+'<div class="np" style="font-size:11px;color:var(--dim);margin-top:3px">'+n.platform+' · 点击打开</div></a></div>');
+      h += '</div>';
+    }
+  } else if (type === 2) {
+    item = boards.esports.find(i=>i.id===id);
+    h += '<div style="font-size:20px;font-weight:700;margin-bottom:16px;margin-top:8px">'+item.tournament+'</div>';
+    h += '<div style="display:flex;gap:8px;margin:12px 0;flex-wrap:wrap"><span class="tg tgd">'+item.type+'</span><span>📅 '+item.date+'</span><span>📍 '+item.venue+'</span><span class="tg tgm">'+item.game+'</span></div>';
+    if (item.sampleNotes&&item.sampleNotes.length) {
+      h += '<div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--bd)"><h3 style="font-size:12px;color:var(--dim);margin-bottom:10px">站内相关笔记 ('+item.sampleNotes.length+')</h3>';
+      item.sampleNotes.forEach(n => h += '<a class="nl" style="display:block;padding:10px;background:var(--card);border:1px solid var(--bd);border-radius:8px;margin-bottom:8px;text-decoration:none;color:var(--text);font-size:13px" href="'+n.url+'" target="_blank">'+n.title+'<div class="np" style="font-size:11px;color:var(--dim);margin-top:3px">'+f(n.likes)+'赞 · 点击打开</div></a>');
+      h += '</div>';
+    }
+  }
+  dr.innerHTML = h;
+  dr.style.transform = 'translateX(0)';
+  ov.style.display = 'block';
+}
+function cl() {
+  document.getElementById('dr').style.transform = 'translateX(100%)';
+  document.getElementById('ov').style.display = 'none';
+}
+r();
+</script></body></html>
