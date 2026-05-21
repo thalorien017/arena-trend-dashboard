@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T15:24:15.028928",
+  "generatedAt": "2026-05-21T16:05:55.977083",
   "refreshInterval": "1h",
   "nextRefresh": "整点自动刷新",
   "boards": {
@@ -16,7 +16,7 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d97b600000000080339f7",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028873"
+        "generatedAt": "2026-05-21T16:05:55.977023"
       },
       {
         "id": "ds2",
@@ -25,15 +25,29 @@
         "board": "discussion",
         "signalType": "讨论苗头",
         "commentToLikeRatio": 0.46,
-        "commentCount": 136,
+        "commentCount": 138,
         "tgi": "均衡",
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a05c987000000003603097d",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028888"
+        "generatedAt": "2026-05-21T16:05:55.977042"
       },
       {
         "id": "ds3",
+        "title": "新套装幻灵九尾入手实测！",
+        "game": "无畏契约",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.42,
+        "commentCount": 96,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e88e30000000037037ed4",
+        "topComments": [],
+        "generatedAt": "2026-05-21T16:05:55.977046"
+      },
+      {
+        "id": "ds4",
         "title": "26年第12周TOP100手游流水排行!大盘止跌！",
         "game": "穿越火线：枪战王者",
         "board": "discussion",
@@ -44,10 +58,10 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c14ba100000000230276f7",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028892"
+        "generatedAt": "2026-05-21T16:05:55.977050"
       },
       {
-        "id": "ds4",
+        "id": "ds5",
         "title": "比得过零氪最强轻狙M200-幻神吗？",
         "game": "穿越火线：枪战王者",
         "board": "discussion",
@@ -58,10 +72,10 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69922233000000000c035c90",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028895"
+        "generatedAt": "2026-05-21T16:05:55.977052"
       },
       {
-        "id": "ds5",
+        "id": "ds6",
         "title": "第一人称射击游戏排行榜前十名",
         "game": "穿越火线：枪战王者",
         "board": "discussion",
@@ -72,24 +86,24 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c1209e00000000210061c6",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028898"
+        "generatedAt": "2026-05-21T16:05:55.977054"
       },
       {
-        "id": "ds6",
+        "id": "ds7",
         "title": "本来当竞小妹就够心酸了",
         "game": "英雄联盟",
         "board": "discussion",
         "signalType": "讨论苗头",
         "commentToLikeRatio": 0.31,
-        "commentCount": 237,
+        "commentCount": 240,
         "tgi": "均衡",
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e7a230000000008030616",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028900"
+        "generatedAt": "2026-05-21T16:05:55.977056"
       },
       {
-        "id": "ds7",
+        "id": "ds8",
         "title": "拍成这样能在北京找互勉么",
         "game": "DOTA2",
         "board": "discussion",
@@ -100,10 +114,10 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a06f1940000000036001d81",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028902"
+        "generatedAt": "2026-05-21T16:05:55.977063"
       },
       {
-        "id": "ds8",
+        "id": "ds9",
         "title": "巴西议员约战Dota2，输了直接辞职？",
         "game": "DOTA2",
         "board": "discussion",
@@ -114,10 +128,10 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a01a075000000003700d088",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028909"
+        "generatedAt": "2026-05-21T16:05:55.977066"
       },
       {
-        "id": "ds9",
+        "id": "ds10",
         "title": "【暗区突围】官方光速滑跪了！取消上线！",
         "game": "暗区突围",
         "board": "discussion",
@@ -128,24 +142,24 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d7add00000000350294ba",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028912"
+        "generatedAt": "2026-05-21T16:05:55.977069"
       },
       {
-        "id": "ds10",
+        "id": "ds11",
         "title": "特攻狙神！新版强势稳定上分阵容！爽吃🐔",
         "game": "金铲铲之战",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.25,
-        "commentCount": 294,
+        "commentToLikeRatio": 0.24,
+        "commentCount": 297,
         "tgi": "均衡",
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d908b000000000603436c",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028914"
+        "generatedAt": "2026-05-21T16:05:55.977071"
       },
       {
-        "id": "ds11",
+        "id": "ds12",
         "title": "打Dota是不是会变聪明",
         "game": "DOTA2",
         "board": "discussion",
@@ -156,21 +170,7 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69fa04dd000000001a03679b",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028917"
-      },
-      {
-        "id": "ds12",
-        "title": "为什么你玩赌狗阵容永远卷不过同行？",
-        "game": "金铲铲之战",
-        "board": "discussion",
-        "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.22,
-        "commentCount": 62,
-        "tgi": "均衡",
-        "tgiRatio": 0.5,
-        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d3315000000000702728d",
-        "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028918"
+        "generatedAt": "2026-05-21T16:05:55.977073"
       },
       {
         "id": "ds13",
@@ -178,16 +178,30 @@
         "game": "火影忍者",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.21,
-        "commentCount": 49,
+        "commentToLikeRatio": 0.19,
+        "commentCount": 86,
         "tgi": "均衡",
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e7f0c000000000702ce17",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028921"
+        "generatedAt": "2026-05-21T16:05:55.977076"
       },
       {
         "id": "ds14",
+        "title": "超过瘾的花式五杀合集来了",
+        "game": "英雄联盟",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.16,
+        "commentCount": 37,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e75a8000000000701159d",
+        "topComments": [],
+        "generatedAt": "2026-05-21T16:05:55.977078"
+      },
+      {
+        "id": "ds15",
         "title": "DOTA2屠夫",
         "game": "DOTA2",
         "board": "discussion",
@@ -198,21 +212,7 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69f9f89a000000002301569c",
         "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028923"
-      },
-      {
-        "id": "ds15",
-        "title": "当你emo了却只会念诗……",
-        "game": "王者荣耀",
-        "board": "discussion",
-        "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.15,
-        "commentCount": 136,
-        "tgi": "均衡",
-        "tgiRatio": 0.5,
-        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e914b000000003503934b",
-        "topComments": [],
-        "generatedAt": "2026-05-21T15:24:15.028925"
+        "generatedAt": "2026-05-21T16:05:55.977080"
       }
     ],
     "blueOcean": [],
@@ -234,7 +234,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T15:22:39.872645"
+        "generatedAt": "2026-05-21T16:04:37.051094"
       },
       {
         "id": "h2",
@@ -253,7 +253,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T15:22:39.872676"
+        "generatedAt": "2026-05-21T16:04:37.051124"
       },
       {
         "id": "h3",
@@ -272,7 +272,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T15:22:42.998974"
+        "generatedAt": "2026-05-21T16:04:40.370158"
       },
       {
         "id": "h4",
@@ -291,7 +291,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T15:22:48.097568"
+        "generatedAt": "2026-05-21T16:04:47.415025"
       },
       {
         "id": "h5",
@@ -310,7 +310,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T15:22:48.097592"
+        "generatedAt": "2026-05-21T16:04:47.415049"
       },
       {
         "id": "h6",
@@ -329,7 +329,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T15:22:50.050630"
+        "generatedAt": "2026-05-21T16:04:50.232399"
       },
       {
         "id": "h7",
@@ -348,7 +348,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T15:22:50.050656"
+        "generatedAt": "2026-05-21T16:04:50.232424"
       },
       {
         "id": "h8",
@@ -367,7 +367,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T15:22:50.050671"
+        "generatedAt": "2026-05-21T16:04:50.232439"
       },
       {
         "id": "h9",
@@ -386,7 +386,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T15:22:52.737396"
+        "generatedAt": "2026-05-21T16:04:53.271242"
       }
     ],
     "esports": [
@@ -413,7 +413,7 @@
           }
         ],
         "priority": 10,
-        "generatedAt": "2026-05-21T15:24:04.916679"
+        "generatedAt": "2026-05-21T16:04:37.147967"
       },
       {
         "id": "e3",
@@ -424,12 +424,12 @@
         "venue": "上海",
         "heatScore": 95,
         "noteCount": 2,
-        "totalLikes": 362051,
+        "totalLikes": 362050,
         "sampleNotes": [
           {
             "title": "手机充不进去电不是坏了，还有补救办法",
             "url": "https://www.xiaohongshu.com/explore/6850063c000000002101b3e2",
-            "likes": 253506
+            "likes": 253505
           },
           {
             "title": "她怎么把水泥往我脸上抹！",
@@ -438,7 +438,7 @@
           }
         ],
         "priority": 9,
-        "generatedAt": "2026-05-21T15:24:08.826034"
+        "generatedAt": "2026-05-21T16:04:42.054357"
       },
       {
         "id": "e5",
@@ -463,7 +463,7 @@
           }
         ],
         "priority": 8,
-        "generatedAt": "2026-05-21T15:24:10.294203"
+        "generatedAt": "2026-05-21T16:04:44.146618"
       },
       {
         "id": "e6",
@@ -474,21 +474,21 @@
         "venue": "北京五棵松",
         "heatScore": 95,
         "noteCount": 2,
-        "totalLikes": 64387,
+        "totalLikes": 64413,
         "sampleNotes": [
           {
             "title": "你不曾离我而去 我定将为你拼尽全力！",
             "url": "https://www.xiaohongshu.com/explore/6a06df5d0000000007027c2e",
-            "likes": 32629
+            "likes": 32634
           },
           {
             "title": "职业赛遇夺舍流多恐怖，看成成大王HG的反",
             "url": "https://www.xiaohongshu.com/explore/6a09074700000000370348a7",
-            "likes": 31758
+            "likes": 31779
           }
         ],
         "priority": 8,
-        "generatedAt": "2026-05-21T15:24:11.341742"
+        "generatedAt": "2026-05-21T16:04:45.316820"
       },
       {
         "id": "e7",
@@ -513,7 +513,7 @@
           }
         ],
         "priority": 7,
-        "generatedAt": "2026-05-21T15:24:12.048864"
+        "generatedAt": "2026-05-21T16:04:46.198134"
       },
       {
         "id": "e8",
@@ -538,7 +538,7 @@
           }
         ],
         "priority": 7,
-        "generatedAt": "2026-05-21T15:24:12.881538"
+        "generatedAt": "2026-05-21T16:04:47.231315"
       },
       {
         "id": "e9",
@@ -563,7 +563,7 @@
           }
         ],
         "priority": 7,
-        "generatedAt": "2026-05-21T15:24:14.166107"
+        "generatedAt": "2026-05-21T16:04:48.895817"
       },
       {
         "id": "e10",
@@ -574,7 +574,7 @@
         "venue": "线上",
         "heatScore": 95,
         "noteCount": 2,
-        "totalLikes": 191853,
+        "totalLikes": 191856,
         "sampleNotes": [
           {
             "title": "",
@@ -584,11 +584,11 @@
           {
             "title": "",
             "url": "https://www.xiaohongshu.com/explore/69f01a07000000003701f3b3",
-            "likes": 90085
+            "likes": 90088
           }
         ],
         "priority": 6,
-        "generatedAt": "2026-05-21T15:24:15.011191"
+        "generatedAt": "2026-05-21T16:04:49.824073"
       },
       {
         "id": "e2",
@@ -602,7 +602,7 @@
         "totalLikes": 0,
         "sampleNotes": [],
         "priority": 9,
-        "generatedAt": "2026-05-21T15:24:07.925316"
+        "generatedAt": "2026-05-21T16:04:40.859455"
       },
       {
         "id": "e4",
@@ -616,7 +616,7 @@
         "totalLikes": 0,
         "sampleNotes": [],
         "priority": 8,
-        "generatedAt": "2026-05-21T15:24:09.612253"
+        "generatedAt": "2026-05-21T16:04:43.309567"
       }
     ]
   },
