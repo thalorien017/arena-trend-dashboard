@@ -1,25 +1,53 @@
 {
-  "generatedAt": "2026-05-21T21:05:50.702829",
+  "generatedAt": "2026-05-21T22:09:51.286553",
   "refreshInterval": "1h",
   "nextRefresh": "整点自动刷新",
   "boards": {
     "discussionSprouts": [
       {
         "id": "ds1",
+        "title": "✌个",
+        "game": "王者荣耀",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 1.41,
+        "commentCount": 291,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0efac30000000006033020",
+        "topComments": [],
+        "generatedAt": "2026-05-21T22:09:51.286490"
+      },
+      {
+        "id": "ds2",
+        "title": "大姐姐你们别闹了好不好。",
+        "game": "王者荣耀",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 1.16,
+        "commentCount": 265,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0f021a000000003502fc78",
+        "topComments": [],
+        "generatedAt": "2026-05-21T22:09:51.286506"
+      },
+      {
+        "id": "ds3",
         "title": "暗区官方还是最听劝的官方",
         "game": "暗区突围",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.55,
-        "commentCount": 176,
+        "commentToLikeRatio": 0.54,
+        "commentCount": 178,
         "tgi": "均衡",
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d97b600000000080339f7",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702769"
+        "generatedAt": "2026-05-21T22:09:51.286512"
       },
       {
-        "id": "ds2",
+        "id": "ds4",
         "title": "洲际导弹：白牛！",
         "game": "DOTA2",
         "board": "discussion",
@@ -30,10 +58,10 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a05c987000000003603097d",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702787"
+        "generatedAt": "2026-05-21T22:09:51.286515"
       },
       {
-        "id": "ds3",
+        "id": "ds5",
         "title": "26年第12周TOP100手游流水排行!大盘止跌！",
         "game": "穿越火线：枪战王者",
         "board": "discussion",
@@ -44,10 +72,10 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c14ba100000000230276f7",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702793"
+        "generatedAt": "2026-05-21T22:09:51.286517"
       },
       {
-        "id": "ds4",
+        "id": "ds6",
         "title": "比得过零氪最强轻狙M200-幻神吗？",
         "game": "穿越火线：枪战王者",
         "board": "discussion",
@@ -58,66 +86,66 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69922233000000000c035c90",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702795"
+        "generatedAt": "2026-05-21T22:09:51.286520"
       },
       {
-        "id": "ds5",
+        "id": "ds7",
+        "title": "挑战者双C！新版强势上分阵容！爽吃🐔！",
+        "game": "金铲铲之战",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.4,
+        "commentCount": 92,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0ed98a000000000702d84b",
+        "topComments": [],
+        "generatedAt": "2026-05-21T22:09:51.286522"
+      },
+      {
+        "id": "ds8",
+        "title": "117和主美的临时加更（附117罕见破防时刻",
+        "game": "暗区突围",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.38,
+        "commentCount": 88,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0ec547000000003503b07c",
+        "topComments": [],
+        "generatedAt": "2026-05-21T22:09:51.286530"
+      },
+      {
+        "id": "ds9",
         "title": "第一人称射击游戏排行榜前十名",
         "game": "穿越火线：枪战王者",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.36,
-        "commentCount": 370,
+        "commentToLikeRatio": 0.37,
+        "commentCount": 372,
         "tgi": "均衡",
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c1209e00000000210061c6",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702797"
+        "generatedAt": "2026-05-21T22:09:51.286534"
       },
       {
-        "id": "ds6",
-        "title": "木灵九五烬，S17版本答案，上分必玩阵容！",
-        "game": "金铲铲之战",
-        "board": "discussion",
-        "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.35,
-        "commentCount": 70,
-        "tgi": "均衡",
-        "tgiRatio": 0.5,
-        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0dc5960000000008024edc",
-        "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702800"
-      },
-      {
-        "id": "ds7",
+        "id": "ds10",
         "title": "🔥核爆流索尔超猛玩法详细教程",
         "game": "金铲铲之战",
         "board": "discussion",
         "signalType": "讨论苗头",
         "commentToLikeRatio": 0.34,
-        "commentCount": 122,
+        "commentCount": 124,
         "tgi": "均衡",
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e779a0000000008001773",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702803"
+        "generatedAt": "2026-05-21T22:09:51.286537"
       },
       {
-        "id": "ds8",
-        "title": "本来当竞小妹就够心酸了",
-        "game": "英雄联盟",
-        "board": "discussion",
-        "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.31,
-        "commentCount": 241,
-        "tgi": "均衡",
-        "tgiRatio": 0.5,
-        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e7a230000000008030616",
-        "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702809"
-      },
-      {
-        "id": "ds9",
+        "id": "ds11",
         "title": "拍成这样能在北京找互勉么",
         "game": "DOTA2",
         "board": "discussion",
@@ -128,10 +156,24 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a06f1940000000036001d81",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702812"
+        "generatedAt": "2026-05-21T22:09:51.286539"
       },
       {
-        "id": "ds10",
+        "id": "ds12",
+        "title": "【暗区突围】官方光速滑跪了！取消上线！",
+        "game": "暗区突围",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.29,
+        "commentCount": 186,
+        "tgi": "均衡",
+        "tgiRatio": 0.5,
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d7add00000000350294ba",
+        "topComments": [],
+        "generatedAt": "2026-05-21T22:09:51.286542"
+      },
+      {
+        "id": "ds13",
         "title": "巴西议员约战Dota2，输了直接辞职？",
         "game": "DOTA2",
         "board": "discussion",
@@ -142,24 +184,10 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a01a075000000003700d088",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702815"
+        "generatedAt": "2026-05-21T22:09:51.286545"
       },
       {
-        "id": "ds11",
-        "title": "【暗区突围】官方光速滑跪了！取消上线！",
-        "game": "暗区突围",
-        "board": "discussion",
-        "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.28,
-        "commentCount": 174,
-        "tgi": "均衡",
-        "tgiRatio": 0.5,
-        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d7add00000000350294ba",
-        "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702817"
-      },
-      {
-        "id": "ds12",
+        "id": "ds14",
         "title": "打Dota是不是会变聪明",
         "game": "DOTA2",
         "board": "discussion",
@@ -170,49 +198,21 @@
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69fa04dd000000001a03679b",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702819"
+        "generatedAt": "2026-05-21T22:09:51.286547"
       },
       {
-        "id": "ds13",
+        "id": "ds15",
         "title": "吃鸡秘诀！5月21日最新上分阵容推荐榜单",
         "game": "金铲铲之战",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.2,
-        "commentCount": 46,
+        "commentToLikeRatio": 0.19,
+        "commentCount": 50,
         "tgi": "均衡",
         "tgiRatio": 0.5,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e6c3b0000000038034449",
         "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702822"
-      },
-      {
-        "id": "ds14",
-        "title": "此乃何物？",
-        "game": "三角洲行动",
-        "board": "discussion",
-        "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.19,
-        "commentCount": 74,
-        "tgi": "均衡",
-        "tgiRatio": 0.5,
-        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0ee242000000003503a5ea",
-        "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702824"
-      },
-      {
-        "id": "ds15",
-        "title": "狼舞一的位置我让了",
-        "game": "王者荣耀",
-        "board": "discussion",
-        "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.17,
-        "commentCount": 42,
-        "tgi": "均衡",
-        "tgiRatio": 0.5,
-        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0efbf4000000003701ef90",
-        "topComments": [],
-        "generatedAt": "2026-05-21T21:05:50.702826"
+        "generatedAt": "2026-05-21T22:09:51.286549"
       }
     ],
     "blueOcean": [],
@@ -234,7 +234,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T21:04:36.803769"
+        "generatedAt": "2026-05-21T22:08:36.310872"
       },
       {
         "id": "h2",
@@ -253,7 +253,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T21:04:36.803807"
+        "generatedAt": "2026-05-21T22:08:36.310901"
       },
       {
         "id": "h3",
@@ -272,7 +272,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T21:04:39.423798"
+        "generatedAt": "2026-05-21T22:08:39.239196"
       },
       {
         "id": "h4",
@@ -291,7 +291,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T21:04:45.557856"
+        "generatedAt": "2026-05-21T22:08:45.300594"
       },
       {
         "id": "h5",
@@ -310,7 +310,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T21:04:45.557881"
+        "generatedAt": "2026-05-21T22:08:45.300619"
       },
       {
         "id": "h6",
@@ -329,7 +329,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T21:04:48.094631"
+        "generatedAt": "2026-05-21T22:08:47.407027"
       },
       {
         "id": "h7",
@@ -348,15 +348,15 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T21:04:48.094658"
+        "generatedAt": "2026-05-21T22:08:47.407052"
       },
       {
         "id": "h8",
         "title": "和张凌赫打游戏是种什么体验",
         "game": "无畏契约",
         "heatScore": 97,
-        "cumulativeNotes": 14001,
-        "last24hGrowth": 20852,
+        "cumulativeNotes": 14002,
+        "last24hGrowth": 20853,
         "lifecycle": "高峰期",
         "channelType": "社区热点",
         "direction": "讨论互动",
@@ -367,7 +367,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T21:04:48.094673"
+        "generatedAt": "2026-05-21T22:08:47.407070"
       },
       {
         "id": "h9",
@@ -386,7 +386,7 @@
             "platform": "小红书"
           }
         ],
-        "generatedAt": "2026-05-21T21:04:50.436093"
+        "generatedAt": "2026-05-21T22:08:49.837719"
       }
     ],
     "esports": [
@@ -399,12 +399,12 @@
         "venue": "线上",
         "heatScore": 95,
         "noteCount": 2,
-        "totalLikes": 277939,
+        "totalLikes": 277940,
         "sampleNotes": [
           {
             "title": "挑战者杯的初衷不是强者恒强，而是勇者无畏",
             "url": "https://www.xiaohongshu.com/explore/6935732e000000000d00cf55",
-            "likes": 147065
+            "likes": 147066
           },
           {
             "title": "朵莉亚：我这是刺痛了谁？",
@@ -413,7 +413,7 @@
           }
         ],
         "priority": 10,
-        "generatedAt": "2026-05-21T21:04:36.514590"
+        "generatedAt": "2026-05-21T22:08:36.152930"
       },
       {
         "id": "e3",
@@ -438,7 +438,7 @@
           }
         ],
         "priority": 9,
-        "generatedAt": "2026-05-21T21:04:40.635830"
+        "generatedAt": "2026-05-21T22:08:40.728039"
       },
       {
         "id": "e5",
@@ -463,7 +463,7 @@
           }
         ],
         "priority": 8,
-        "generatedAt": "2026-05-21T21:04:42.231589"
+        "generatedAt": "2026-05-21T22:08:42.989283"
       },
       {
         "id": "e6",
@@ -474,21 +474,21 @@
         "venue": "北京五棵松",
         "heatScore": 95,
         "noteCount": 2,
-        "totalLikes": 64984,
+        "totalLikes": 65137,
         "sampleNotes": [
           {
             "title": "你不曾离我而去 我定将为你拼尽全力！",
             "url": "https://www.xiaohongshu.com/explore/6a06df5d0000000007027c2e",
-            "likes": 32794
+            "likes": 32836
           },
           {
             "title": "职业赛遇夺舍流多恐怖，看成成大王HG的反",
             "url": "https://www.xiaohongshu.com/explore/6a09074700000000370348a7",
-            "likes": 32190
+            "likes": 32301
           }
         ],
         "priority": 8,
-        "generatedAt": "2026-05-21T21:04:43.210432"
+        "generatedAt": "2026-05-21T22:08:44.111313"
       },
       {
         "id": "e7",
@@ -513,7 +513,7 @@
           }
         ],
         "priority": 7,
-        "generatedAt": "2026-05-21T21:04:44.196582"
+        "generatedAt": "2026-05-21T22:08:44.929886"
       },
       {
         "id": "e8",
@@ -538,7 +538,7 @@
           }
         ],
         "priority": 7,
-        "generatedAt": "2026-05-21T21:04:45.212845"
+        "generatedAt": "2026-05-21T22:08:46.050787"
       },
       {
         "id": "e9",
@@ -549,21 +549,21 @@
         "venue": "线上",
         "heatScore": 95,
         "noteCount": 2,
-        "totalLikes": 648922,
+        "totalLikes": 648921,
         "sampleNotes": [
           {
             "title": "棋逢对手乃是弈者之幸‌，想跟我下一盘棋吗",
             "url": "https://www.xiaohongshu.com/explore/6891ee46000000002501ef37",
-            "likes": 361847
+            "likes": 361848
           },
           {
             "title": "女孩子真的好美好啊！",
             "url": "https://www.xiaohongshu.com/explore/687991c500000000120308db",
-            "likes": 287075
+            "likes": 287073
           }
         ],
         "priority": 7,
-        "generatedAt": "2026-05-21T21:04:46.853545"
+        "generatedAt": "2026-05-21T22:08:47.616578"
       },
       {
         "id": "e10",
@@ -574,7 +574,7 @@
         "venue": "线上",
         "heatScore": 95,
         "noteCount": 2,
-        "totalLikes": 191883,
+        "totalLikes": 191897,
         "sampleNotes": [
           {
             "title": "",
@@ -584,11 +584,11 @@
           {
             "title": "",
             "url": "https://www.xiaohongshu.com/explore/69f01a07000000003701f3b3",
-            "likes": 90115
+            "likes": 90129
           }
         ],
         "priority": 6,
-        "generatedAt": "2026-05-21T21:04:47.974908"
+        "generatedAt": "2026-05-21T22:08:48.540651"
       },
       {
         "id": "e2",
@@ -602,7 +602,7 @@
         "totalLikes": 0,
         "sampleNotes": [],
         "priority": 9,
-        "generatedAt": "2026-05-21T21:04:39.510624"
+        "generatedAt": "2026-05-21T22:08:39.490162"
       },
       {
         "id": "e4",
@@ -616,7 +616,7 @@
         "totalLikes": 0,
         "sampleNotes": [],
         "priority": 8,
-        "generatedAt": "2026-05-21T21:04:41.463453"
+        "generatedAt": "2026-05-21T22:08:42.034280"
       }
     ]
   },
