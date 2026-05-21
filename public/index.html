@@ -1,178 +1,117 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>竞技游戏趋势看板</title>
+<!DOCTYPE html><html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>竞技游戏趋势看板</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#0d1117;color:#e6edf3;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-.container{max-width:1200px;margin:0 auto;padding:20px}
-h1{font-size:22px;font-weight:800;margin-bottom:4px}
-.subtitle{font-size:12px;color:#8b949e;margin-bottom:12px}
-.tabs{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap}
-.tab{padding:8px 16px;border:1px solid #30363d;border-radius:8px;background:0;color:#8b949e;cursor:pointer;font-size:13px;font-weight:600;transition:.2s}
-.tab:hover{background:#161b22;color:#e6edf3}
-.tab.active{background:#161b22;color:#e6edf3;border-color:#f78166}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
-.card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:14px 16px;cursor:pointer;transition:.2s}
-.card:hover{background:#1b2333;border-color:#8b949e;transform:translateY(-1px)}
-.card-title{font-size:14px;font-weight:700;margin-bottom:8px;line-height:1.4}
-.card-meta{display:flex;gap:8px;font-size:11px;color:#8b949e;flex-wrap:wrap;align-items:center}
-.badge{padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600}
-.badge-blue{background:rgba(88,166,255,.12);color:#58a6ff}
-.badge-orange{background:rgba(247,129,102,.12);color:#f78166}
-.badge-red{background:rgba(248,81,73,.12);color:#f85149}
-.badge-green{background:rgba(63,185,80,.12);color:#3fb950}
-.badge-gold{background:rgba(210,168,78,.12);color:#d2a84e}
-.score{font:bold 26px 'SF Mono','Space Grotesk',monospace;color:#f78166;min-width:40px;text-align:right}
-.score-red{color:#f85149}.score-gold{color:#d2a84e}
-.bar{height:3px;background:#30363d;border-radius:2px;margin-top:10px;overflow:hidden}
-.bar-fill{height:100%;border-radius:2px}
-.bar-orange{background:linear-gradient(90deg,#f78166,#ff7b42)}
-.bar-red{background:linear-gradient(90deg,#f85149,#f78166)}
-.bar-gold{background:linear-gradient(90deg,#d2a84e,#f0c666)}
-.analysis{font-size:11px;color:#8b949e;margin-top:10px;padding:8px;background:#0d1117;border-radius:5px;border:1px solid #30363d;line-height:1.5}
-.analysis strong{color:#e6edf3}
-.suggestion{font-size:11px;color:#f78166;margin-top:6px;padding:6px 8px;background:rgba(247,129,102,.06);border-radius:5px;border:1px solid rgba(247,129,102,.2);line-height:1.4}
-.empty{text-align:center;padding:60px 20px;color:#8b949e}
-.empty p{margin-top:8px;font-size:13px}
-</style>
-</head>
-<body>
-<div class="container">
-<h1>⚡ 竞技游戏趋势看板</h1>
-<div class="subtitle">2026-05-21T17:50 更新</div>
-<div class="tabs" id="tabs"></div>
-<div class="subtitle" id="summary"></div>
-<div class="grid" id="grid"></div>
+body{background:#0d1117;color:#e6edf3;font:14px -apple-system,BlinkMacSystemFont,sans-serif}
+.c{max-width:1280px;margin:0 auto;padding:20px 24px}
+h1{font-size:22px;font-weight:800}
+.u{font-size:12px;color:#8b949e;margin:4px 0 14px}
+.t{display:flex;gap:6px;margin:14px 0;flex-wrap:wrap}
+.b{border:1px solid #30363d;border-radius:10px;padding:9px 18px;background:0;color:#8b949e;font-size:13px;font-weight:600;cursor:pointer;transition:.2s}
+.b:hover{background:#161b22;color:#e6edf3}
+.ba{background:#161b22;color:#e6edf3;border-color:#f78166}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.ca{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:16px 18px;cursor:pointer;transition:.2s;display:flex;flex-direction:column}
+.ca:hover{background:#1b2333;border-color:#8b949e;transform:translateY(-1px)}
+.ti{font-size:15px;font-weight:700;margin-bottom:10px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.m{display:flex;gap:6px;font-size:12px;color:#8b949e;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+.gm{padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600}
+.gb{background:rgba(88,166,255,.12);color:#58a6ff}
+.go{background:rgba(247,129,102,.12);color:#f78166}
+.gr{background:rgba(248,81,73,.12);color:#f85149}
+.gg{background:rgba(63,185,80,.12);color:#3fb950}
+.gd{background:rgba(210,168,78,.12);color:#d2a84e}
+.s{font:800 28px/1 monospace;min-width:44px;text-align:right}
+.so{color:#f78166}.sr{color:#f85149}.sg{color:#d2a84e}
+.z{height:4px;background:#30363d;border-radius:2px;overflow:hidden;margin-top:auto}
+.zf{height:100%}.zo{background:linear-gradient(90deg,#f78166,#ff7b42)}.zr{background:linear-gradient(90deg,#f85149,#f78166)}.zg{background:linear-gradient(90deg,#d2a84e,#f0c666)}
+.e{text-align:center;padding:80px 20px;color:#8b949e;grid-column:1/-1}
+.an{font-size:12px;color:#8b949e;margin-top:10px;padding:10px;background:#0d1117;border-radius:6px;border:1px solid #30363d;line-height:1.5;flex-shrink:0}
+.an strong{color:#e6edf3}
+.su{font-size:11px;color:#f78166;margin-top:6px;padding:6px 10px;background:rgba(247,129,102,.06);border-radius:5px;border:1px solid rgba(247,129,102,.2);line-height:1.4}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:999;display:flex;align-items:center;justify-content:center}
+.ovc{max-width:500px;margin:20px;padding:24px;background:#0d1117;border:1px solid #30363d;border-radius:12px;position:relative;width:100%}
+.oc{position:absolute;top:16px;right:16px;background:0;border:0;color:#8b949e;font-size:22px;cursor:pointer;line-height:1;padding:4px}.oc:hover{color:#e6edf3}
+.dt{font-size:20px;font-weight:800;margin:8px 0 12px;padding-right:30px}
+.ds{font:bold 32px monospace;margin-bottom:12px}
+.bb{display:block;margin-top:12px;padding:10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:13px}
+.bb:hover{background:#1b2333}
+.nl{margin-top:16px;font-size:12px;color:#8b949e}.ni{display:block;padding:8px 12px;margin:6px 0;background:#161b22;border:1px solid #30363d;border-radius:6px;text-decoration:none;color:#e6edf3;font-size:12px}.ni:hover{background:#1b2333}
+</style></head>
+<body><div class="c">
+<h1>竞技游戏趋势看板</h1>
+<div class="u"><span id="tabInfo"></span></div>
+<div class="t" id="tabBar"></div>
+<div class="g" id="grid"></div>
 </div>
 <script>
-var D={"generatedAt": "2026-05-21T17:50:08", "sprouts": [{"id": "ds1", "title": "📢卤蛋与菜姬·第六弹表情包上线啦！", "game": "王者荣耀", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.77, "commentCount": 172, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0eadaa000000003503a4a5", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972713", "analysis": "王者荣耀社区活跃讨论 · 讨论活跃（评赞比0.77），用户参与对话意愿强", "suggestion": "王者荣耀相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(172评) — 建议在话题高峰前完成内容准备"}, {"id": "ds2", "title": "暗区官方还是最听劝的官方", "game": "暗区突围", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.59, "commentCount": 171, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d97b600000000080339f7", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972729", "analysis": "暗区突围社区活跃讨论 · 讨论活跃（评赞比0.59），用户参与对话意愿强", "suggestion": "暗区突围相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(171评) — 建议在话题高峰前完成内容准备"}, {"id": "ds3", "title": "洲际导弹：白牛！", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.46, "commentCount": 138, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a05c987000000003603097d", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972733", "analysis": "DOTA2社区活跃讨论 · 讨论度中上（评赞比0.46），部分用户愿意参与互动", "suggestion": "DOTA2相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(138评) — 建议在话题高峰前完成内容准备"}, {"id": "ds4", "title": "26年第12周TOP100手游流水排行!大盘止跌！", "game": "穿越火线：枪战王者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.42, "commentCount": 97, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c14ba100000000230276f7", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972736", "analysis": "穿越火线：枪战王者社区活跃讨论 · 讨论度中上（评赞比0.42），部分用户愿意参与互动", "suggestion": "穿越火线：枪战王者相关图文创作 · 短视频模板与话题互动"}, {"id": "ds5", "title": "比得过零氪最强轻狙M200-幻神吗？", "game": "穿越火线：枪战王者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.42, "commentCount": 94, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69922233000000000c035c90", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972738", "analysis": "穿越火线：枪战王者社区活跃讨论 · 讨论度中上（评赞比0.42），部分用户愿意参与互动", "suggestion": "穿越火线：枪战王者相关图文创作 · 短视频模板与话题互动"}, {"id": "ds6", "title": "新套装幻灵九尾入手实测！", "game": "无畏契约", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.39, "commentCount": 103, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e88e30000000037037ed4", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972741", "analysis": "无畏契约社区活跃讨论 · 讨论度中上（评赞比0.39），部分用户愿意参与互动", "suggestion": "无畏契约相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(103评) — 建议在话题高峰前完成内容准备"}, {"id": "ds7", "title": "第一人称射击游戏排行榜前十名", "game": "穿越火线：枪战王者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.36, "commentCount": 370, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c1209e00000000210061c6", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972743", "analysis": "穿越火线：枪战王者社区活跃讨论 · 讨论度中上（评赞比0.36），部分用户愿意参与互动", "suggestion": "穿越火线：枪战王者相关图文创作 · 短视频模板与话题互动 · 🔥 高讨论量(370评) — 建议优先促产，评论区已经证明这个话题有真实需求"}, {"id": "ds8", "title": "本来当竞小妹就够心酸了", "game": "英雄联盟", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.31, "commentCount": 241, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e7a230000000008030616", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972750", "analysis": "轻松趣味向话题，英雄联盟社群文化表现 · 讨论度中上（评赞比0.31），部分用户愿意参与互动", "suggestion": "英雄联盟相关图文创作 · 短视频模板与话题互动 · 🔥 高讨论量(241评) — 建议优先促产，评论区已经证明这个话题有真实需求"}], "hotspots": [{"id": "h7", "title": "关注格温喵🐱！", "game": "英雄联盟", "heatScore": 64, "cumulativeNotes": 278, "last24hGrowth": 68, "lifecycle": "高峰期", "channelType": "社区热点", "internalNotes": [{"title": "关注格温喵🐱！", "url": "https://www.xiaohongshu.com/explore/6a0da4f8000000003601ece5", "platform": "小红书"}], "analysis": "英雄联盟社区活跃内容，作为基础热度信号持续观察", "suggestion": "英雄联盟相关图文创作 · 短视频模板与话题互动"}, {"id": "h6", "title": "派克格温！新版强势稳定上分阵容！爽吃🐔", "game": "金铲铲之战", "heatScore": 61, "cumulativeNotes": 146, "last24hGrowth": 29, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "派克格温！新版强势稳定上分阵容！爽吃🐔", "url": "https://www.xiaohongshu.com/explore/6a0c2b6200000000060337c3", "platform": "小红书"}], "analysis": "金铲铲之战攻略型内容，实用性驱动的持续消费 · 适合作为长尾内容孵化", "suggestion": "技巧教学短视频（金铲铲之战上分核心要点） · 梯度榜单图文（稳定上分选角推荐）"}, {"id": "h16", "title": "截胡", "game": "PUBG", "heatScore": 61, "cumulativeNotes": 152, "last24hGrowth": 30, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "截胡", "url": "https://www.xiaohongshu.com/explore/6a01bc500000000037037f0b", "platform": "小红书"}], "analysis": "PUBG社区活跃内容，作为基础热度信号持续观察", "suggestion": "PUBG相关图文创作 · 短视频模板与话题互动"}, {"id": "h14", "title": "liz实力展示中…", "game": "PUBG", "heatScore": 60, "cumulativeNotes": 164, "last24hGrowth": 34, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "liz实力展示中…", "url": "https://www.xiaohongshu.com/explore/6a070614000000003603077a", "platform": "小红书"}], "analysis": "PUBG社区活跃内容，作为基础热度信号持续观察", "suggestion": "PUBG相关图文创作 · 短视频模板与话题互动"}, {"id": "h21", "title": "到底是谁刷到了", "game": "永劫无间", "heatScore": 56, "cumulativeNotes": 213, "last24hGrowth": 48, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "到底是谁刷到了", "url": "https://www.xiaohongshu.com/explore/6a0db2230000000038036004", "platform": "小红书"}], "analysis": "永劫无间社区活跃内容，作为基础热度信号持续观察", "suggestion": "永劫无间相关图文创作 · 短视频模板与话题互动"}, {"id": "h1", "title": "当你emo了却只会念诗……", "game": "王者荣耀", "heatScore": 53, "cumulativeNotes": 123, "last24hGrowth": 22, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "当你emo了却只会念诗……", "url": "https://www.xiaohongshu.com/explore/6a0e914b000000003503934b", "platform": "小红书"}], "analysis": "王者荣耀社区活跃内容，作为基础热度信号持续观察", "suggestion": "王者荣耀相关图文创作 · 短视频模板与话题互动"}], "esports": [{"topic": "EDG 时隔 470 天再夺 VCT CN 联赛冠军", "game": "无畏契约", "tag": "VCT CN", "heatScore": 92, "totalLikes": 28000, "noteCount": 3, "sampleNotes": [{"title": "冠军❗️EDG时隔470天拿下联赛冠军", "url": "https://www.xiaohongshu.com/explore/6a008fd2000000000701017c", "likes": 28000}], "analysis": "讨论方向：冠军含金量争议 · 关键局战术复盘 · 选手状态对比", "suggestion": "促产方向：决胜局战术拆条短视频 · 冠军之夜赛后 vlog 模板 · 「EDG这个赛季值几分」互动投票", "id": "e1"}, {"topic": "AG 超玩会 4:3 狼队 — 七局鏖战冲上热搜", "game": "王者荣耀", "tag": "挑战者杯", "heatScore": 94, "totalLikes": 45000, "noteCount": 5, "sampleNotes": [{"title": "AG超玩会 vs 狼队 巅峰对决", "url": "#", "likes": 12000}, {"title": "挑战者杯总决赛 AG夺冠", "url": "#", "likes": 15000}], "analysis": "讨论方向：七局鏖战战术分析 · AG vs 狼队宿命对决 · 总决赛语音/花絮回放", "suggestion": "促产方向：决胜局「每一波关键团战」复盘系列 · 选手语音二创混剪 · 「你猜第几局定胜负」盲猜投票", "id": "e2"}, {"topic": "BLG 第一赛段夺冠后第二赛段激战中", "game": "英雄联盟", "tag": "LPL", "heatScore": 88, "totalLikes": 32000, "noteCount": 4, "sampleNotes": [{"title": "BLG 第一赛段冠军回顾", "url": "#", "likes": 11000}, {"title": "LPL第二赛段组内赛前瞻", "url": "#", "likes": 9000}], "analysis": "讨论方向：BLG卫冕几率 · 新赛制影响 · 各战队实力对比", "suggestion": "促产方向：第二赛段实力梯度图 · 每周赛果速递 · 「你最看好哪支战队」投票", "id": "e3"}, {"topic": "TES 拿下三角洲烽火职业联赛历史首冠", "game": "三角洲行动", "tag": "烽火联赛", "heatScore": 85, "totalLikes": 18000, "noteCount": 3, "sampleNotes": [{"title": "TES战队夺得春季赛总冠军", "url": "#", "likes": 8000}, {"title": "烽火职业联赛五棵松首冠夜", "url": "#", "likes": 5000}], "analysis": "讨论方向：三角洲电竞首个冠军意义 · TES战队成员表现 · FPS电竞新势力", "suggestion": "促产方向：三角洲电竞\"从零到冠军\"历程回顾 · 选手个人故事专访模板 · 新赛季看点前瞻", "id": "e4"}, {"topic": "NBPL 春季赛落幕 · iG 永劫无间分部成立", "game": "永劫无间", "tag": "NBPL", "heatScore": 82, "totalLikes": 25000, "noteCount": 3, "sampleNotes": [{"title": "NBPL春季赛总决赛西安", "url": "#", "likes": 10000}, {"title": "iG成立永劫无间分部", "url": "#", "likes": 8000}], "analysis": "讨论方向：NBPL赛制改革 · iG进入永劫无间的意义 · 西安线下赛氛围", "suggestion": "促产方向：NBPL赛制对比解读 · 新战队「值得关注」推荐 · 西安赛线下 vlog 模板", "id": "e5"}, {"topic": "DOTA2 巴西议员约战职业选手引发热议", "game": "DOTA2", "tag": "国际约战", "heatScore": 78, "totalLikes": 15000, "noteCount": 2, "sampleNotes": [{"title": "巴西议员约战Dota2选手", "url": "#", "likes": 9000}], "analysis": "讨论方向：跨界出圈效应 · 电竞破圈的公关价值 · DOTA2 国际传播", "suggestion": "促产方向：\"当议员也打电竞\"趣味选题 · 跨界人物对比图文 · DOTA2 国际出圈名场面合集", "id": "e6"}, {"topic": "电竞世界杯确认落地中国 · 多项目筹备中", "game": "多游戏", "tag": "电竞世界杯", "heatScore": 86, "totalLikes": 22000, "noteCount": 2, "sampleNotes": [{"title": "电竞世界杯落地中国", "url": "#", "likes": 12000}], "analysis": "讨论方向：中国电竞国际化 · 赛制与入围规则 · 各大俱乐部备战动态", "suggestion": "促产方向：「哪些项目中国有望夺冠」预测 · 电竞世界杯科普图文 · 俱乐部应援墙", "id": "e7"}]};
-var tab=0;
-
-function f(n){if(n>=10000)return(n/10000).toFixed(1)+"万";if(n>=1000)return(n/1000).toFixed(1)+"k";return String(n||0)}
+function f(n){if(n>=10000)return(n/10000).toFixed(1)+'万';if(n>=1000)return(n/1000).toFixed(1)+'k';return String(n||0)}
+var D={"updated": "2026-05-21T17:50:08", "sprouts": [{"id": "ds1", "title": "📢卤蛋与菜姬·第六弹表情包上线啦！", "game": "王者荣耀", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.77, "commentCount": 172, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0eadaa000000003503a4a5", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972713", "analysis": "王者荣耀社区活跃讨论 · 讨论活跃（评赞比0.77），用户参与对话意愿强", "suggestion": "王者荣耀相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(172评) — 建议在话题高峰前完成内容准备"}, {"id": "ds2", "title": "暗区官方还是最听劝的官方", "game": "暗区突围", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.59, "commentCount": 171, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d97b600000000080339f7", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972729", "analysis": "暗区突围社区活跃讨论 · 讨论活跃（评赞比0.59），用户参与对话意愿强", "suggestion": "暗区突围相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(171评) — 建议在话题高峰前完成内容准备"}, {"id": "ds3", "title": "洲际导弹：白牛！", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.46, "commentCount": 138, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a05c987000000003603097d", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972733", "analysis": "DOTA2社区活跃讨论 · 讨论度中上（评赞比0.46），部分用户愿意参与互动", "suggestion": "DOTA2相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(138评) — 建议在话题高峰前完成内容准备"}, {"id": "ds4", "title": "26年第12周TOP100手游流水排行!大盘止跌！", "game": "穿越火线：枪战王者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.42, "commentCount": 97, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c14ba100000000230276f7", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972736", "analysis": "穿越火线：枪战王者社区活跃讨论 · 讨论度中上（评赞比0.42），部分用户愿意参与互动", "suggestion": "穿越火线：枪战王者相关图文创作 · 短视频模板与话题互动"}, {"id": "ds5", "title": "比得过零氪最强轻狙M200-幻神吗？", "game": "穿越火线：枪战王者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.42, "commentCount": 94, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69922233000000000c035c90", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972738", "analysis": "穿越火线：枪战王者社区活跃讨论 · 讨论度中上（评赞比0.42），部分用户愿意参与互动", "suggestion": "穿越火线：枪战王者相关图文创作 · 短视频模板与话题互动"}, {"id": "ds6", "title": "新套装幻灵九尾入手实测！", "game": "无畏契约", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.39, "commentCount": 103, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e88e30000000037037ed4", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972741", "analysis": "无畏契约社区活跃讨论 · 讨论度中上（评赞比0.39），部分用户愿意参与互动", "suggestion": "无畏契约相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(103评) — 建议在话题高峰前完成内容准备"}, {"id": "ds7", "title": "第一人称射击游戏排行榜前十名", "game": "穿越火线：枪战王者", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.36, "commentCount": 370, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69c1209e00000000210061c6", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972743", "analysis": "穿越火线：枪战王者社区活跃讨论 · 讨论度中上（评赞比0.36），部分用户愿意参与互动", "suggestion": "穿越火线：枪战王者相关图文创作 · 短视频模板与话题互动 · 🔥 高讨论量(370评) — 建议优先促产，评论区已经证明这个话题有真实需求"}, {"id": "ds8", "title": "本来当竞小妹就够心酸了", "game": "英雄联盟", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.31, "commentCount": 241, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0e7a230000000008030616", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972750", "analysis": "轻松趣味向话题，英雄联盟社群文化表现 · 讨论度中上（评赞比0.31），部分用户愿意参与互动", "suggestion": "英雄联盟相关图文创作 · 短视频模板与话题互动 · 🔥 高讨论量(241评) — 建议优先促产，评论区已经证明这个话题有真实需求"}, {"id": "ds9", "title": "拍成这样能在北京找互勉么", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.3, "commentCount": 64, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a06f1940000000036001d81", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972753", "analysis": "DOTA2社区活跃讨论 · 讨论度一般（评赞比0.30），更多是消费型互动", "suggestion": "DOTA2相关图文创作 · 短视频模板与话题互动"}, {"id": "ds10", "title": "巴西议员约战Dota2，输了直接辞职？", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.29, "commentCount": 118, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a01a075000000003700d088", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972755", "analysis": "DOTA2社区活跃讨论 · 讨论度一般（评赞比0.29），更多是消费型互动", "suggestion": "DOTA2相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(118评) — 建议在话题高峰前完成内容准备"}, {"id": "ds11", "title": "【暗区突围】官方光速滑跪了！取消上线！", "game": "暗区突围", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.28, "commentCount": 168, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a0d7add00000000350294ba", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972757", "analysis": "暗区突围社区活跃讨论 · 讨论度一般（评赞比0.28），更多是消费型互动", "suggestion": "暗区突围相关图文创作 · 短视频模板与话题互动 · 📈 讨论上升中(168评) — 建议在话题高峰前完成内容准备"}, {"id": "ds12", "title": "打Dota是不是会变聪明", "game": "DOTA2", "board": "discussion", "signalType": "讨论苗头", "commentToLikeRatio": 0.23, "commentCount": 277, "tgi": "均衡", "tgiRatio": 0.5, "sourceNoteUrl": "https://www.xiaohongshu.com/explore/69fa04dd000000001a03679b", "topComments": [], "generatedAt": "2026-05-21T17:06:40.972759", "analysis": "DOTA2社区活跃讨论 · 讨论度一般（评赞比0.23），更多是消费型互动", "suggestion": "DOTA2相关图文创作 · 短视频模板与话题互动 · 🔥 高讨论量(277评) — 建议优先促产，评论区已经证明这个话题有真实需求"}], "hotspots": [{"id": "h7", "title": "关注格温喵🐱！", "game": "英雄联盟", "heatScore": 64, "cumulativeNotes": 278, "last24hGrowth": 68, "lifecycle": "高峰期", "channelType": "社区热点", "internalNotes": [{"title": "关注格温喵🐱！", "url": "https://www.xiaohongshu.com/explore/6a0da4f8000000003601ece5", "platform": "小红书"}], "analysis": "英雄联盟社区活跃内容，作为基础热度信号持续观察", "suggestion": "英雄联盟相关图文创作 · 短视频模板与话题互动"}, {"id": "h6", "title": "派克格温！新版强势稳定上分阵容！爽吃🐔", "game": "金铲铲之战", "heatScore": 61, "cumulativeNotes": 146, "last24hGrowth": 29, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "派克格温！新版强势稳定上分阵容！爽吃🐔", "url": "https://www.xiaohongshu.com/explore/6a0c2b6200000000060337c3", "platform": "小红书"}], "analysis": "金铲铲之战攻略型内容，实用性驱动的持续消费 · 适合作为长尾内容孵化", "suggestion": "技巧教学短视频（金铲铲之战上分核心要点） · 梯度榜单图文（稳定上分选角推荐）"}, {"id": "h16", "title": "截胡", "game": "PUBG", "heatScore": 61, "cumulativeNotes": 152, "last24hGrowth": 30, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "截胡", "url": "https://www.xiaohongshu.com/explore/6a01bc500000000037037f0b", "platform": "小红书"}], "analysis": "PUBG社区活跃内容，作为基础热度信号持续观察", "suggestion": "PUBG相关图文创作 · 短视频模板与话题互动"}, {"id": "h14", "title": "liz实力展示中…", "game": "PUBG", "heatScore": 60, "cumulativeNotes": 164, "last24hGrowth": 34, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "liz实力展示中…", "url": "https://www.xiaohongshu.com/explore/6a070614000000003603077a", "platform": "小红书"}], "analysis": "PUBG社区活跃内容，作为基础热度信号持续观察", "suggestion": "PUBG相关图文创作 · 短视频模板与话题互动"}, {"id": "h21", "title": "到底是谁刷到了", "game": "永劫无间", "heatScore": 56, "cumulativeNotes": 213, "last24hGrowth": 48, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "到底是谁刷到了", "url": "https://www.xiaohongshu.com/explore/6a0db2230000000038036004", "platform": "小红书"}], "analysis": "永劫无间社区活跃内容，作为基础热度信号持续观察", "suggestion": "永劫无间相关图文创作 · 短视频模板与话题互动"}, {"id": "h1", "title": "当你emo了却只会念诗……", "game": "王者荣耀", "heatScore": 53, "cumulativeNotes": 123, "last24hGrowth": 22, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "当你emo了却只会念诗……", "url": "https://www.xiaohongshu.com/explore/6a0e914b000000003503934b", "platform": "小红书"}], "analysis": "王者荣耀社区活跃内容，作为基础热度信号持续观察", "suggestion": "王者荣耀相关图文创作 · 短视频模板与话题互动"}, {"id": "h12", "title": "博人传为什么要给他改成顺产头？", "game": "火影忍者", "heatScore": 52, "cumulativeNotes": 83, "last24hGrowth": 20, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "博人传为什么要给他改成顺产头？", "url": "https://www.xiaohongshu.com/explore/6a0de4640000000036019aea", "platform": "小红书"}], "analysis": "火影忍者社区活跃内容，作为基础热度信号持续观察", "suggestion": "火影忍者相关图文创作 · 短视频模板与话题互动"}, {"id": "h18", "title": "论fps玩家的静态视力与听力", "game": "暗区突围", "heatScore": 52, "cumulativeNotes": 106, "last24hGrowth": 20, "lifecycle": "上升期", "channelType": "社区热点", "internalNotes": [{"title": "论fps玩家的静态视力与听力", "url": "https://www.xiaohongshu.com/explore/6a0862a7000000003700fa2e", "platform": "小红书"}], "analysis": "暗区突围社区活跃内容，作为基础热度信号持续观察", "suggestion": "暗区突围相关图文创作 · 短视频模板与话题互动"}], "esports": [{"topic": "EDG 时隔 470 天再夺 VCT CN 联赛冠军", "game": "无畏契约", "tag": "VCT CN", "heatScore": 92, "totalLikes": 28000, "noteCount": 3, "sampleNotes": [{"title": "冠军❗️EDG时隔470天拿下联赛冠军", "url": "https://www.xiaohongshu.com/explore/6a008fd2000000000701017c", "likes": 28000}], "analysis": "讨论方向：冠军含金量争议 · 关键局战术复盘 · 选手状态对比", "suggestion": "促产方向：决胜局战术拆条短视频 · 冠军之夜赛后 vlog 模板 · 「EDG这个赛季值几分」互动投票", "id": "e1"}, {"topic": "AG 超玩会 4:3 狼队 — 七局鏖战冲上热搜", "game": "王者荣耀", "tag": "挑战者杯", "heatScore": 94, "totalLikes": 45000, "noteCount": 5, "sampleNotes": [{"title": "AG超玩会 vs 狼队 巅峰对决", "url": "#", "likes": 12000}, {"title": "挑战者杯总决赛 AG夺冠", "url": "#", "likes": 15000}], "analysis": "讨论方向：七局鏖战战术分析 · AG vs 狼队宿命对决 · 总决赛语音/花絮回放", "suggestion": "促产方向：决胜局「每一波关键团战」复盘系列 · 选手语音二创混剪 · 「你猜第几局定胜负」盲猜投票", "id": "e2"}, {"topic": "BLG 第一赛段夺冠后第二赛段激战中", "game": "英雄联盟", "tag": "LPL", "heatScore": 88, "totalLikes": 32000, "noteCount": 4, "sampleNotes": [{"title": "BLG 第一赛段冠军回顾", "url": "#", "likes": 11000}, {"title": "LPL第二赛段组内赛前瞻", "url": "#", "likes": 9000}], "analysis": "讨论方向：BLG卫冕几率 · 新赛制影响 · 各战队实力对比", "suggestion": "促产方向：第二赛段实力梯度图 · 每周赛果速递 · 「你最看好哪支战队」投票", "id": "e3"}, {"topic": "TES 拿下三角洲烽火职业联赛历史首冠", "game": "三角洲行动", "tag": "烽火联赛", "heatScore": 85, "totalLikes": 18000, "noteCount": 3, "sampleNotes": [{"title": "TES战队夺得春季赛总冠军", "url": "#", "likes": 8000}, {"title": "烽火职业联赛五棵松首冠夜", "url": "#", "likes": 5000}], "analysis": "讨论方向：三角洲电竞首个冠军意义 · TES战队成员表现 · FPS电竞新势力", "suggestion": "促产方向：三角洲电竞\"从零到冠军\"历程回顾 · 选手个人故事专访模板 · 新赛季看点前瞻", "id": "e4"}, {"topic": "NBPL 春季赛落幕 · iG 永劫无间分部成立", "game": "永劫无间", "tag": "NBPL", "heatScore": 82, "totalLikes": 25000, "noteCount": 3, "sampleNotes": [{"title": "NBPL春季赛总决赛西安", "url": "#", "likes": 10000}, {"title": "iG成立永劫无间分部", "url": "#", "likes": 8000}], "analysis": "讨论方向：NBPL赛制改革 · iG进入永劫无间的意义 · 西安线下赛氛围", "suggestion": "促产方向：NBPL赛制对比解读 · 新战队「值得关注」推荐 · 西安赛线下 vlog 模板", "id": "e5"}, {"topic": "DOTA2 巴西议员约战职业选手引发热议", "game": "DOTA2", "tag": "国际约战", "heatScore": 78, "totalLikes": 15000, "noteCount": 2, "sampleNotes": [{"title": "巴西议员约战Dota2选手", "url": "#", "likes": 9000}], "analysis": "讨论方向：跨界出圈效应 · 电竞破圈的公关价值 · DOTA2 国际传播", "suggestion": "促产方向：\"当议员也打电竞\"趣味选题 · 跨界人物对比图文 · DOTA2 国际出圈名场面合集", "id": "e6"}, {"topic": "电竞世界杯确认落地中国 · 多项目筹备中", "game": "多游戏", "tag": "电竞世界杯", "heatScore": 86, "totalLikes": 22000, "noteCount": 2, "sampleNotes": [{"title": "电竞世界杯落地中国", "url": "#", "likes": 12000}], "analysis": "讨论方向：中国电竞国际化 · 赛制与入围规则 · 各大俱乐部备战动态", "suggestion": "促产方向：「哪些项目中国有望夺冠」预测 · 电竞世界杯科普图文 · 俱乐部应援墙", "id": "e7"}]};
+var T=[['讨论苗头',D.sprouts],['蓝海选题',[]],['热点看板',D.hotspots],['赛事热点',D.esports]];
+var C=0;
 
 function render(){
-  var t=document.getElementById('tabs'),s=document.getElementById('summary'),g=document.getElementById('grid');
-  t.innerHTML='';
-  
-  var tabs=[
-    {label:"💬 讨论苗头 · "+D.sprouts.length,cls:"active"},
-    {label:"🔵 蓝海选题 · 0",cls:""},
-    {label:"🔥 热点看板 · "+D.hotspots.length,cls:""},
-    {label:"🏆 赛事热点 · "+D.esports.length,cls:""}
-  ];
-  
-  for(var i=0;i<tabs.length;i++){
-    (function(idx,info){
-      var btn=document.createElement('button');
-      btn.className='tab'+(idx===tab?' active':'');
-      btn.textContent=info.label;
-      btn.onclick=function(){tab=idx;render()};
-      t.appendChild(btn);
-    })(i,tabs[i]);
-  }
-  
-  g.innerHTML='';
-  
-  if(tab===0){
-    s.innerHTML='<strong>'+D.sprouts.length+' 条</strong> · 信号=评论/赞比';
-    for(var i=0;i<D.sprouts.length;i++){
-      var it=D.sprouts[i],ra=(it.commentToLikeRatio||0).toFixed(2);
-      var card=document.createElement('div');
-      card.className='card';
-      card.onclick=function(idx){return function(){showDetail(idx,0)}}(i);
-      card.innerHTML='<div class="card-title">'+(it.title||'---')+'</div>'
-        +'<div class="card-meta"><span class="badge badge-blue">'+it.game+'</span>'
-        +'<span class="badge badge-orange">讨论苗头</span>'
-        +'<span style="margin-left:auto">💬'+f(it.commentCount||0)+'</span>'
-        +'<span class="score">'+ra+'</span></div>'
-        +(it.analysis?'<div class="analysis">📊 <strong>'+it.analysis+'</strong></div>':'')
-        +(it.suggestion?'<div class="suggestion">💡 '+it.suggestion+'</div>':'')
-        +'<div class="bar"><div class="bar-fill bar-orange" style="width:'+Math.min(ra*60,100)+'%"></div></div>';
-      g.appendChild(card);
-    }
-  }else if(tab===1){
-    s.innerHTML='';
-    g.innerHTML='<div class="empty"><p style="font-size:48px">🔵</p><p>蓝海选题 P1 开发中</p></div>';
-  }else if(tab===2){
-    s.innerHTML='<strong>'+D.hotspots.length+' 条</strong>';
-    for(var i=0;i<D.hotspots.length;i++){
-      var it=D.hotspots[i];
-      var card=document.createElement('div');
-      card.className='card';
-      card.onclick=function(idx){return function(){showDetail(idx,1)}}(i);
-      card.innerHTML='<div class="card-title">'+it.title+'</div>'
-        +'<div class="card-meta"><span class="badge badge-blue">'+it.game+'</span>'
-        +'<span class="badge badge-green">'+(it.lifecycle||'上升期')+'</span>'
-        +'<span style="margin-left:auto">📝'+f(it.cumulativeNotes)+'</span>'
-        +'<span class="score score-red">'+it.heatScore+'</span></div>'
-        +(it.analysis?'<div class="analysis">📊 <strong>'+it.analysis+'</strong></div>':'')
-        +'<div class="bar"><div class="bar-fill bar-red" style="width:'+it.heatScore+'%"></div></div>';
-      g.appendChild(card);
-    }
+ var tb=document.getElementById('tabBar'),g=document.getElementById('grid'),ti=document.getElementById('tabInfo');
+ tb.innerHTML='';
+ T.forEach(function(t,i){
+  var b=document.createElement('button');
+  b.className='b'+(i===C?' ba':'');
+  b.textContent=['\ud83d\udcac','\ud83d\udd35','\ud83d\udd25','\ud83c\udfc6'][i]+' '+t[0]+' '+t[1].length;
+  b.onclick=function(){C=i;render()};
+  tb.appendChild(b);
+ });
+ ti.textContent=T[C][1].length+' 条';
+ g.innerHTML='';
+ var items=T[C][1];
+ if(items.length===0){g.innerHTML='<div class="e"><p>暂无数据</p></div>';return}
+ for(var i=0;i<items.length;i++){
+  var it=items[i],ca=document.createElement('div');
+  ca.className='ca';
+  if(C===3)ca.style.borderLeft='3px solid #d2a84e';
+  ca.onclick=function(idx){return function(){showDetail(idx)}}(i);
+  var meta,score,bar;
+  if(C===0){
+   var r=(it.commentToLikeRatio||0).toFixed(2);
+   meta='<span class="gm gb">'+it.game+'</span><span class="gm go">讨论苗头</span><span style="margin-left:auto">'+f(it.commentCount||0)+'</span>';
+   score='<span class="s so">'+r+'</span>';
+   bar='<div class="z"><div class="zf zo" style="width:'+Math.min(r*60,100)+'%"></div></div>';
+  }else if(C===2){
+   meta='<span class="gm gb">'+it.game+'</span><span class="gm gg">'+(it.lifecycle||'')+'</span><span style="margin-left:auto">'+f(it.cumulativeNotes||0)+'</span>';
+   score='<span class="s sr">'+it.heatScore+'</span>';
+   bar='<div class="z"><div class="zf zr" style="width:'+it.heatScore+'%"></div></div>';
   }else{
-    s.innerHTML='<strong>'+D.esports.length+' 个</strong> · 具体事件分析';
-    for(var i=0;i<D.esports.length;i++){
-      var it=D.esports[i];
-      var card=document.createElement('div');
-      card.className='card';
-      card.style.borderLeft='3px solid #d2a84e';
-      card.onclick=function(idx){return function(){showDetail(idx,2)}}(i);
-      card.innerHTML='<div class="card-title">'+it.topic+'</div>'
-        +'<div class="card-meta"><span class="badge badge-gold">'+it.tag+'</span>'
-        +'<span class="badge badge-blue">'+it.game+'</span>'
-        +'<span style="margin-left:auto">❤️'+f(it.totalLikes||0)+'</span>'
-        +'<span class="score score-gold">'+it.heatScore+'</span></div>'
-        +(it.analysis?'<div class="analysis">📊 <strong>'+it.analysis+'</strong></div>':'')
-        +'<div class="bar"><div class="bar-fill bar-gold" style="width:'+it.heatScore+'%"></div></div>';
-      g.appendChild(card);
-    }
+   meta='<span class="gm gd">'+(it.tag||'')+'</span><span class="gm gb">'+it.game+'</span><span style="margin-left:auto">'+f(it.totalLikes||0)+'</span>';
+   score='<span class="s sg">'+it.heatScore+'</span>';
+   bar='<div class="z"><div class="zf zg" style="width:'+it.heatScore+'%"></div></div>';
   }
+  ca.innerHTML='<div class="ti">'+(it.title||it.topic||'')+'</div><div class="m">'+meta+score+'</div>'+(it.analysis?'<div class="an"><strong>'+it.analysis+'</strong></div>':'')+(it.suggestion?'<div class="su">'+it.suggestion+'</div>':'')+bar;
+  g.appendChild(ca);
+ }
 }
 
-function showDetail(idx,type){
-  var it,html='<div style="max-width:500px;margin:40px auto;padding:24px;background:#0d1117;border:1px solid #30363d;border-radius:12px;position:relative">';
-  html+='<button onclick="this.parentElement.parentElement.innerHTML=''" style="position:absolute;top:16px;right:16px;background:0;border:0;color:#8b949e;font-size:22px;cursor:pointer">✕</button>';
-  
-  if(type===0){
-    it=D.sprouts[idx];
-    html+='<div style="font-size:20px;font-weight:800;margin:8px 0 12px">'+(it.title||'---')+'</div>'
-      +'<div style="font:bold 32px monospace;color:#f78166;margin-bottom:12px">'+(it.commentToLikeRatio||0).toFixed(2)+' <span style="font-size:12px;color:#8b949e;font-weight:400">评论/赞比</span></div>'
-      +'<div style="display:flex;gap:8px;margin-bottom:16px"><span class="badge badge-blue">'+it.game+'</span><span class="badge badge-orange">讨论苗头</span></div>'
-      +(it.analysis?'<div class="analysis">📊 <strong>'+it.analysis+'</strong></div>':'')
-      +(it.suggestion?'<div class="suggestion">💡 '+it.suggestion+'</div>':'')
-      +(it.sourceNoteUrl?'<a href="'+it.sourceNoteUrl+'" target="_blank" style="display:block;margin-top:12px;padding:10px;background:#161b22;border:1px solid #30363d;border-radius:8px;text-decoration:none;color:#e6edf3;font-size:13px">🔗 打开笔记</a>':'');
-  }else if(type===1){
-    it=D.hotspots[idx];
-    html+='<div style="font-size:20px;font-weight:800;margin:8px 0 12px">'+it.title+'</div>'
-      +'<div style="font:bold 32px monospace;color:#f85149;margin-bottom:12px">'+it.heatScore+' <span style="font-size:12px;color:#8b949e;font-weight:400">热度分</span></div>'
-      +'<div style="display:flex;gap:8px;margin-bottom:16px"><span class="badge badge-blue">'+it.game+'</span><span class="badge badge-green">'+it.lifecycle+'</span></div>'
-      +(it.analysis?'<div class="analysis">📊 <strong>'+it.analysis+'</strong></div>':'');
-  }else{
-    it=D.esports[idx];
-    html+='<div style="font-size:20px;font-weight:800;margin:8px 0 12px">'+it.topic+'</div>'
-      +'<div style="display:flex;gap:8px;margin-bottom:16px"><span class="badge badge-gold">'+it.tag+'</span><span class="badge badge-blue">'+it.game+'</span></div>'
-      +(it.analysis?'<div class="analysis">📊 <strong>'+it.analysis+'</strong></div>':'')
-      +(it.suggestion?'<div class="suggestion">💡 '+it.suggestion+'</div>':'');
-    if(it.sampleNotes&&it.sampleNotes.length){
-      html+='<div style="margin-top:16px;font-size:12px;color:#8b949e">📝 站内笔记</div>';
-      for(var j=0;j<it.sampleNotes.length;j++){
-        var n=it.sampleNotes[j];
-        html+='<a href="'+n.url+'" target="_blank" style="display:block;padding:8px 12px;margin:6px 0;background:#161b22;border:1px solid #30363d;border-radius:6px;text-decoration:none;color:#e6edf3;font-size:12px">'+n.title+' <span style="color:#8b949e">'+f(n.likes)+'</span></a>';
-      }
-    }
+function showDetail(idx){
+ var it=T[C][1][idx],h='<div class="ov"><div class="ovc"><button class="oc" onclick="this.parentElement.parentElement.parentElement.remove()">\u2715</button>';
+ if(C===0){
+  h+='<div class="dt">'+(it.title||'')+'</div><div class="ds so">'+(it.commentToLikeRatio||0).toFixed(2)+' <span style="font-size:13px;color:#8b949e;font-weight:400">评论/赞比</span></div><div class="m">'+'<span class="gm gb">'+it.game+'</span><span class="gm go">讨论苗头</span></div>'+(it.analysis?'<div class="an"><strong>'+it.analysis+'</strong></div>':'')+(it.suggestion?'<div class="su">'+it.suggestion+'</div>':'');
+  if(it.sourceNoteUrl)h+='<a class="bb" href="'+it.sourceNoteUrl+'" target="_blank">\ud83d\udd17 打开笔记</a>';
+ }else if(C===2){
+  h+='<div class="dt">'+it.title+'</div><div class="ds sr">'+it.heatScore+' <span style="font-size:13px;color:#8b949e;font-weight:400">热度分</span></div><div class="m"><span class="gm gb">'+it.game+'</span><span class="gm gg">'+it.lifecycle+'</span></div>'+(it.analysis?'<div class="an"><strong>'+it.analysis+'</strong></div>':'');
+ }else{
+  h+='<div class="dt">'+(it.topic||'')+'</div><div class="m"><span class="gm gd">'+(it.tag||'')+'</span><span class="gm gb">'+it.game+'</span><span style="margin-left:auto;font-weight:700;color:#d2a84e">'+it.heatScore+'</span></div>'+(it.analysis?'<div class="an"><strong>'+it.analysis+'</strong></div>':'')+(it.suggestion?'<div class="su">'+it.suggestion+'</div>':'');
+  if(it.sampleNotes&&it.sampleNotes.length){
+   h+='<div class="nl">\ud83d\udcdd 站内笔记</div>';
+   for(var j=0;j<it.sampleNotes.length;j++){
+    var n=it.sampleNotes[j];
+    h+='<a class="ni" href="'+n.url+'" target="_blank">'+n.title+' <span style="color:#8b949e">'+f(n.likes)+'</span></a>';
+   }
   }
-  html+='</div>';
-  var overlay=document.createElement('div');
-  overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:999;display:flex;align-items:center;justify-content:center';
-  overlay.innerHTML=html;
-  overlay.onclick=function(e){if(e.target===overlay)overlay.remove()};
-  document.body.appendChild(overlay);
+ }
+ h+='</div></div>';
+ var d=document.createElement('div');
+ d.innerHTML=h;
+ document.body.appendChild(d);
+ d.querySelector('.ov').onclick=function(e){if(e.target===this)this.remove()};
 }
 
 render();
-</script>
-</body>
-</html>
+</script></body></html>
