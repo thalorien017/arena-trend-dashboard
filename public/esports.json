@@ -1,0 +1,230 @@
+[
+  {
+    "id": "e1",
+    "tournament": "挑战者杯",
+    "game": "王者荣耀",
+    "type": "总决赛",
+    "date": "2026-05-23",
+    "venue": "线上",
+    "heatScore": 95,
+    "noteCount": 2,
+    "totalLikes": 277936,
+    "sampleNotes": [
+      {
+        "title": "挑战者杯的初衷不是强者恒强，而是勇者无畏",
+        "url": "https://www.xiaohongshu.com/explore/6935732e000000000d00cf55",
+        "likes": 147062
+      },
+      {
+        "title": "朵莉亚：我这是刺痛了谁？",
+        "url": "https://www.xiaohongshu.com/explore/6957acb2000000001e0233a2",
+        "likes": 130874
+      }
+    ],
+    "priority": 10,
+    "generatedAt": "2026-05-21T15:24:04.916679"
+  },
+  {
+    "id": "e3",
+    "tournament": "LPL",
+    "game": "英雄联盟",
+    "type": "第二赛段",
+    "date": "2026-05-24",
+    "venue": "上海",
+    "heatScore": 95,
+    "noteCount": 2,
+    "totalLikes": 362051,
+    "sampleNotes": [
+      {
+        "title": "手机充不进去电不是坏了，还有补救办法",
+        "url": "https://www.xiaohongshu.com/explore/6850063c000000002101b3e2",
+        "likes": 253506
+      },
+      {
+        "title": "她怎么把水泥往我脸上抹！",
+        "url": "https://www.xiaohongshu.com/explore/68d1415b000000001201def7",
+        "likes": 108545
+      }
+    ],
+    "priority": 9,
+    "generatedAt": "2026-05-21T15:24:08.826034"
+  },
+  {
+    "id": "e5",
+    "tournament": "NBPL",
+    "game": "永劫无间",
+    "type": "春季赛",
+    "date": "2026-05-17",
+    "venue": "西安",
+    "heatScore": 95,
+    "noteCount": 2,
+    "totalLikes": 354041,
+    "sampleNotes": [
+      {
+        "title": "人情世故的真相：酒肉朋友给你热闹...",
+        "url": "https://www.xiaohongshu.com/explore/684177f20000000022035059",
+        "likes": 190063
+      },
+      {
+        "title": "哇！姐姐好美啊",
+        "url": "https://www.xiaohongshu.com/explore/68428a7a0000000021009ee4",
+        "likes": 163978
+      }
+    ],
+    "priority": 8,
+    "generatedAt": "2026-05-21T15:24:10.294203"
+  },
+  {
+    "id": "e6",
+    "tournament": "烽火职业联赛",
+    "game": "三角洲行动",
+    "type": "春季赛",
+    "date": "2026-05-16",
+    "venue": "北京五棵松",
+    "heatScore": 95,
+    "noteCount": 2,
+    "totalLikes": 64387,
+    "sampleNotes": [
+      {
+        "title": "你不曾离我而去 我定将为你拼尽全力！",
+        "url": "https://www.xiaohongshu.com/explore/6a06df5d0000000007027c2e",
+        "likes": 32629
+      },
+      {
+        "title": "职业赛遇夺舍流多恐怖，看成成大王HG的反",
+        "url": "https://www.xiaohongshu.com/explore/6a09074700000000370348a7",
+        "likes": 31758
+      }
+    ],
+    "priority": 8,
+    "generatedAt": "2026-05-21T15:24:11.341742"
+  },
+  {
+    "id": "e7",
+    "tournament": "BLG",
+    "game": "英雄联盟",
+    "type": "第一赛段冠军",
+    "date": "ongoing",
+    "venue": "线上",
+    "heatScore": 95,
+    "noteCount": 2,
+    "totalLikes": 162432,
+    "sampleNotes": [
+      {
+        "title": "我宣布 她是世界上最好的老婆",
+        "url": "https://www.xiaohongshu.com/explore/672649fb000000001a0344c2",
+        "likes": 102919
+      },
+      {
+        "title": "当父母支持我打电竞",
+        "url": "https://www.xiaohongshu.com/explore/6725f1e2000000001901890f",
+        "likes": 59513
+      }
+    ],
+    "priority": 7,
+    "generatedAt": "2026-05-21T15:24:12.048864"
+  },
+  {
+    "id": "e8",
+    "tournament": "VCT CN",
+    "game": "无畏契约",
+    "type": "联赛",
+    "date": "ongoing",
+    "venue": "全国七城",
+    "heatScore": 95,
+    "noteCount": 2,
+    "totalLikes": 12779,
+    "sampleNotes": [
+      {
+        "title": "",
+        "url": "https://www.xiaohongshu.com/explore/698008da000000000a03e613",
+        "likes": 6808
+      },
+      {
+        "title": "",
+        "url": "https://www.xiaohongshu.com/explore/68834e98000000002201e4d0",
+        "likes": 5971
+      }
+    ],
+    "priority": 7,
+    "generatedAt": "2026-05-21T15:24:12.881538"
+  },
+  {
+    "id": "e9",
+    "tournament": "KPL",
+    "game": "王者荣耀",
+    "type": "联赛",
+    "date": "ongoing",
+    "venue": "线上",
+    "heatScore": 95,
+    "noteCount": 2,
+    "totalLikes": 648923,
+    "sampleNotes": [
+      {
+        "title": "棋逢对手乃是弈者之幸‌，想跟我下一盘棋吗",
+        "url": "https://www.xiaohongshu.com/explore/6891ee46000000002501ef37",
+        "likes": 361848
+      },
+      {
+        "title": "女孩子真的好美好啊！",
+        "url": "https://www.xiaohongshu.com/explore/687991c500000000120308db",
+        "likes": 287075
+      }
+    ],
+    "priority": 7,
+    "generatedAt": "2026-05-21T15:24:14.166107"
+  },
+  {
+    "id": "e10",
+    "tournament": "PEL",
+    "game": "和平精英",
+    "type": "联赛",
+    "date": "ongoing",
+    "venue": "线上",
+    "heatScore": 95,
+    "noteCount": 2,
+    "totalLikes": 191853,
+    "sampleNotes": [
+      {
+        "title": "",
+        "url": "https://www.xiaohongshu.com/explore/68b1a572000000001d0202af",
+        "likes": 101768
+      },
+      {
+        "title": "",
+        "url": "https://www.xiaohongshu.com/explore/69f01a07000000003701f3b3",
+        "likes": 90085
+      }
+    ],
+    "priority": 6,
+    "generatedAt": "2026-05-21T15:24:15.011191"
+  },
+  {
+    "id": "e2",
+    "tournament": "AG超玩会 狼队",
+    "game": "王者荣耀",
+    "type": "焦点战",
+    "date": "2026-05-23",
+    "venue": "线上",
+    "heatScore": 54,
+    "noteCount": 0,
+    "totalLikes": 0,
+    "sampleNotes": [],
+    "priority": 9,
+    "generatedAt": "2026-05-21T15:24:07.925316"
+  },
+  {
+    "id": "e4",
+    "tournament": "VCT EDG",
+    "game": "无畏契约",
+    "type": "第一赛段",
+    "date": "2026-05-10",
+    "venue": "全国七城",
+    "heatScore": 48,
+    "noteCount": 0,
+    "totalLikes": 0,
+    "sampleNotes": [],
+    "priority": 8,
+    "generatedAt": "2026-05-21T15:24:09.612253"
+  }
+]
