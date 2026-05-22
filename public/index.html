@@ -102,7 +102,7 @@ function render(){
  }
  ti.innerHTML=TAB[0][C]+' <b>'+TAB[1][C]+'</b> '+'条  ·  '+['信号=评论/赞比','','热度分+生命周期','具体赛事事件'][C];
  g.innerHTML='';
- var items=T[C];
+ var items=getItems();
  if(items.length===0){g.innerHTML='<div class="e"><p>暂无数据</p></div>';return}
  for(var i=0;i<items.length;i++){
   var it=items[i],ca=document.createElement('div');
@@ -129,7 +129,7 @@ function render(){
  }
 }
 
-function items(){return C===0?D.sprouts:C===2?D.hotspots:D.esports}
+function getItems(){return C===0?D.sprouts:C===2?D.hotspots:D.esports}
 
 function openDetail(idx){
  var it=items()[idx];
