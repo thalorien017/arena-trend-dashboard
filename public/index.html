@@ -66,7 +66,7 @@ h1{font-size:22px;font-weight:800}
 <div class="sp" id="panel">
   <div class="sph">
     <h2 id="pTitle"></h2>
-    <button class="scb" onclick="closePanel()">+</button>
+    <button class="scb" onclick="closePanel()">✕</button>
   </div>
   <div class="spb" id="pBody"></div>
 </div>
@@ -159,8 +159,6 @@ function openDetail(idx){
         body+='<div class="spci"><div class="spciu">'+(c.user||'用户')+'</div><div class="spcit">'+c.content+'</div><div class="spcim">❤ '+f(c.likes||0)+'</div></div>';
       }
       body+='</div>';
-    }else{
-      body+='<div class="spll">暂无评论数据，待引擎抽取</div>';
     }
   }else if(C===2){
     body+='<div class="sps"><span class="gm gb">'+it.game+'</span><span class="gm gg">'+(it.lifecycle||'')+'</span></div>';
