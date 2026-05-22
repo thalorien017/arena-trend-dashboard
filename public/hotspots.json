@@ -16,7 +16,7 @@
         "platform": "小红书"
       }
     ],
-    "generatedAt": "2026-05-21T17:04:36.788586"
+    "generatedAt": "2026-05-22T15:04:38.549160"
   },
   {
     "id": "h2",
@@ -35,7 +35,7 @@
         "platform": "小红书"
       }
     ],
-    "generatedAt": "2026-05-21T17:04:36.788615"
+    "generatedAt": "2026-05-22T15:04:38.549190"
   },
   {
     "id": "h3",
@@ -43,7 +43,7 @@
     "game": "和平精英",
     "heatScore": 97,
     "cumulativeNotes": 18806,
-    "last24hGrowth": 28060,
+    "last24hGrowth": 28059,
     "lifecycle": "高峰期",
     "channelType": "社区热点",
     "direction": "讨论互动",
@@ -54,14 +54,14 @@
         "platform": "小红书"
       }
     ],
-    "generatedAt": "2026-05-21T17:04:39.511563"
+    "generatedAt": "2026-05-22T15:04:41.221125"
   },
   {
     "id": "h4",
     "title": "这是属于我们的一秒钟",
     "game": "英雄联盟",
     "heatScore": 97,
-    "cumulativeNotes": 20331,
+    "cumulativeNotes": 20330,
     "last24hGrowth": 30346,
     "lifecycle": "高峰期",
     "channelType": "社区热点",
@@ -73,7 +73,7 @@
         "platform": "小红书"
       }
     ],
-    "generatedAt": "2026-05-21T17:04:48.465515"
+    "generatedAt": "2026-05-22T15:04:46.795712"
   },
   {
     "id": "h5",
@@ -92,7 +92,7 @@
         "platform": "小红书"
       }
     ],
-    "generatedAt": "2026-05-21T17:04:48.465542"
+    "generatedAt": "2026-05-22T15:04:46.795736"
   },
   {
     "id": "h6",
@@ -111,7 +111,7 @@
         "platform": "小红书"
       }
     ],
-    "generatedAt": "2026-05-21T17:04:51.398560"
+    "generatedAt": "2026-05-22T15:04:48.501137"
   },
   {
     "id": "h7",
@@ -119,7 +119,7 @@
     "game": "无畏契约",
     "heatScore": 97,
     "cumulativeNotes": 18235,
-    "last24hGrowth": 27203,
+    "last24hGrowth": 27202,
     "lifecycle": "高峰期",
     "channelType": "社区热点",
     "direction": "讨论互动",
@@ -130,15 +130,15 @@
         "platform": "小红书"
       }
     ],
-    "generatedAt": "2026-05-21T17:04:51.398583"
+    "generatedAt": "2026-05-22T15:04:48.501162"
   },
   {
     "id": "h8",
     "title": "和张凌赫打游戏是种什么体验",
     "game": "无畏契约",
     "heatScore": 97,
-    "cumulativeNotes": 14001,
-    "last24hGrowth": 20852,
+    "cumulativeNotes": 14002,
+    "last24hGrowth": 20853,
     "lifecycle": "高峰期",
     "channelType": "社区热点",
     "direction": "讨论互动",
@@ -149,7 +149,7 @@
         "platform": "小红书"
       }
     ],
-    "generatedAt": "2026-05-21T17:04:51.398599"
+    "generatedAt": "2026-05-22T15:04:48.501180"
   },
   {
     "id": "h9",
@@ -168,6 +168,6 @@
         "platform": "小红书"
       }
     ],
-    "generatedAt": "2026-05-21T17:04:54.679377"
+    "generatedAt": "2026-05-22T15:04:50.974059"
   }
 ]
