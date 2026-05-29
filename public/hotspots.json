@@ -1,173 +1,182 @@
 [
   {
-    "id": "h1",
-    "title": "这就是讨好型coser格吗…",
-    "game": "王者荣耀",
-    "heatScore": 97,
-    "cumulativeNotes": 34075,
-    "last24hGrowth": 50963,
-    "lifecycle": "高峰期",
-    "channelType": "社区热点",
-    "direction": "cos同人",
-    "internalNotes": [
-      {
-        "title": "这就是讨好型coser格吗…",
-        "url": "https://www.xiaohongshu.com/explore/6818911a000000002001ea57",
-        "platform": "小红书"
-      }
-    ],
-    "generatedAt": "2026-05-22T15:04:38.549160"
-  },
-  {
-    "id": "h2",
-    "title": "姐姐，那年东湖的雨天，我只想与你一起排位",
-    "game": "王者荣耀",
-    "heatScore": 97,
-    "cumulativeNotes": 25995,
-    "last24hGrowth": 38843,
-    "lifecycle": "高峰期",
-    "channelType": "社区热点",
-    "direction": "讨论互动",
-    "internalNotes": [
-      {
-        "title": "姐姐，那年东湖的雨天，我只想与",
-        "url": "https://www.xiaohongshu.com/explore/686f77ba000000002400a0a2",
-        "platform": "小红书"
-      }
-    ],
-    "generatedAt": "2026-05-22T15:04:38.549190"
+    "id": "h14",
+    "title": "不是，这算怎么个事😢？",
+    "game": "无畏契约",
+    "heatScore": 65,
+    "cumulativeNotes": 1491,
+    "lifecycle": "上升期",
+    "noteCount": 1,
+    "likeCount": 14912,
+    "commentCount": 1733,
+    "ageHours": 12.3,
+    "analysis": "社区热点内容 · 发现期(热度65) · 14912赞/1733评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a18d40a000000000702a4b3",
+    "generatedAt": "2026-05-29T20:04:48.295834"
   },
   {
     "id": "h3",
-    "title": "既然你两这么有缘的话，不如…",
+    "title": "不笑的是给",
     "game": "和平精英",
-    "heatScore": 97,
-    "cumulativeNotes": 18806,
-    "last24hGrowth": 28059,
-    "lifecycle": "高峰期",
-    "channelType": "社区热点",
-    "direction": "讨论互动",
-    "internalNotes": [
-      {
-        "title": "既然你两这么有缘的话，不如…",
-        "url": "https://www.xiaohongshu.com/explore/67dd33a4000000001d03868e",
-        "platform": "小红书"
-      }
-    ],
-    "generatedAt": "2026-05-22T15:04:41.221125"
+    "heatScore": 64,
+    "cumulativeNotes": 739,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 7394,
+    "commentCount": 697,
+    "ageHours": 19.4,
+    "analysis": "社区热点内容 · 发现期(热度64) · 7394赞/697评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a186ff0000000003601b519",
+    "generatedAt": "2026-05-29T20:04:39.407171"
+  },
+  {
+    "id": "h11",
+    "title": "以防你还不知道毕业照该摆什么Pose",
+    "game": "英雄联盟",
+    "heatScore": 63,
+    "cumulativeNotes": 502,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 5022,
+    "commentCount": 340,
+    "ageHours": 30.3,
+    "analysis": "社区热点内容 · 发现期(热度63) · 5022赞/340评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a17d6ad00000000350276d9",
+    "generatedAt": "2026-05-29T20:04:46.090346"
+  },
+  {
+    "id": "h12",
+    "title": "还有没有其他像图片的双人组？",
+    "game": "英雄联盟",
+    "heatScore": 63,
+    "cumulativeNotes": 475,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 4757,
+    "commentCount": 953,
+    "ageHours": 32.5,
+    "analysis": "社区热点内容 · 发现期(热度63) · 4757赞/953评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a178e6f0000000035025dfb",
+    "generatedAt": "2026-05-29T20:04:46.090360"
+  },
+  {
+    "id": "h13",
+    "title": "整整30个亚海悬城穿墙点位无畏契约穿墙教学",
+    "game": "无畏契约",
+    "heatScore": 60,
+    "cumulativeNotes": 651,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 6515,
+    "commentCount": 63,
+    "ageHours": 4.5,
+    "analysis": "攻略教学内容 · 发现期(热度60) · 6515赞/63评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a1941d5000000003503b371",
+    "generatedAt": "2026-05-29T20:04:48.295813"
+  },
+  {
+    "id": "h1",
+    "title": "刘邦中路，唯一的缺点就是太过完美嘿嘿！",
+    "game": "王者荣耀",
+    "heatScore": 54,
+    "cumulativeNotes": 701,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 7017,
+    "commentCount": 150,
+    "ageHours": 2.1,
+    "analysis": "社区热点内容 · 发现期(热度54) · 7017赞/150评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a193ea60000000035029610",
+    "generatedAt": "2026-05-29T20:04:37.113877"
+  },
+  {
+    "id": "h2",
+    "title": "他开麦到底谁能绷住？",
+    "game": "王者荣耀",
+    "heatScore": 54,
+    "cumulativeNotes": 411,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 4116,
+    "commentCount": 125,
+    "ageHours": 3.1,
+    "analysis": "社区热点内容 · 发现期(热度54) · 4116赞/125评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a19559400000000080029f1",
+    "generatedAt": "2026-05-29T20:04:37.113906"
+  },
+  {
+    "id": "h17",
+    "title": "这样的路人奶妈谁不喜欢呢",
+    "game": "无畏契约",
+    "heatScore": 52,
+    "cumulativeNotes": 802,
+    "lifecycle": "上升期",
+    "noteCount": 1,
+    "likeCount": 8024,
+    "commentCount": 133,
+    "ageHours": 24.4,
+    "analysis": "社区热点内容 · 发现期(热度52) · 8024赞/133评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a17fecc000000003600259c",
+    "generatedAt": "2026-05-29T20:04:48.295880"
   },
   {
     "id": "h4",
-    "title": "这是属于我们的一秒钟",
-    "game": "英雄联盟",
-    "heatScore": 97,
-    "cumulativeNotes": 20330,
-    "last24hGrowth": 30346,
-    "lifecycle": "高峰期",
-    "channelType": "社区热点",
-    "direction": "讨论互动",
-    "internalNotes": [
-      {
-        "title": "这是属于我们的一秒钟",
-        "url": "https://www.xiaohongshu.com/explore/69131dc400000000040227e7",
-        "platform": "小红书"
-      }
-    ],
-    "generatedAt": "2026-05-22T15:04:46.795712"
+    "title": "大肘子1V4小辣条？",
+    "game": "和平精英",
+    "heatScore": 49,
+    "cumulativeNotes": 324,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 3247,
+    "commentCount": 31,
+    "ageHours": 19.8,
+    "analysis": "社区热点内容 · 发现期(热度49) · 3247赞/31评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a186a3d0000000006020f80",
+    "generatedAt": "2026-05-29T20:04:39.407194"
   },
   {
-    "id": "h5",
-    "title": "过年我就这样出cos去吃团年饭",
-    "game": "英雄联盟",
-    "heatScore": 97,
-    "cumulativeNotes": 20143,
-    "last24hGrowth": 30065,
-    "lifecycle": "高峰期",
-    "channelType": "社区热点",
-    "direction": "cos同人",
-    "internalNotes": [
-      {
-        "title": "过年我就这样出cos去吃团年饭",
-        "url": "https://www.xiaohongshu.com/explore/69774ace00000000280226d3",
-        "platform": "小红书"
-      }
-    ],
-    "generatedAt": "2026-05-22T15:04:46.795736"
-  },
-  {
-    "id": "h6",
-    "title": "偷偷提前回家爸妈不敢认了怎么办！",
-    "game": "无畏契约",
-    "heatScore": 97,
-    "cumulativeNotes": 20695,
-    "last24hGrowth": 30893,
-    "lifecycle": "高峰期",
-    "channelType": "社区热点",
-    "direction": "讨论互动",
-    "internalNotes": [
-      {
-        "title": "偷偷提前回家爸妈不敢认了怎么办",
-        "url": "https://www.xiaohongshu.com/explore/67986d23000000001800bf49",
-        "platform": "小红书"
-      }
-    ],
-    "generatedAt": "2026-05-22T15:04:48.501137"
-  },
-  {
-    "id": "h7",
-    "title": "瓦瓦原声又吸引到美女了",
-    "game": "无畏契约",
-    "heatScore": 97,
-    "cumulativeNotes": 18235,
-    "last24hGrowth": 27202,
-    "lifecycle": "高峰期",
-    "channelType": "社区热点",
-    "direction": "讨论互动",
-    "internalNotes": [
-      {
-        "title": "瓦瓦原声又吸引到美女了",
-        "url": "https://www.xiaohongshu.com/explore/69d7a559000000002102c580",
-        "platform": "小红书"
-      }
-    ],
-    "generatedAt": "2026-05-22T15:04:48.501162"
-  },
-  {
-    "id": "h8",
-    "title": "和张凌赫打游戏是种什么体验",
-    "game": "无畏契约",
-    "heatScore": 97,
-    "cumulativeNotes": 14002,
-    "last24hGrowth": 20853,
-    "lifecycle": "高峰期",
-    "channelType": "社区热点",
-    "direction": "讨论互动",
-    "internalNotes": [
-      {
-        "title": "和张凌赫打游戏是种什么体验",
-        "url": "https://www.xiaohongshu.com/explore/69898108000000001a01e359",
-        "platform": "小红书"
-      }
-    ],
-    "generatedAt": "2026-05-22T15:04:48.501180"
+    "id": "h18",
+    "title": "大家准备好哭了吗",
+    "game": "火影忍者",
+    "heatScore": 49,
+    "cumulativeNotes": 311,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 3118,
+    "commentCount": 163,
+    "ageHours": 20.4,
+    "analysis": "社区热点内容 · 发现期(热度49) · 3118赞/163评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a18622c000000003502efc9",
+    "generatedAt": "2026-05-29T20:04:50.104533"
   },
   {
     "id": "h9",
-    "title": "在职业赛场上带妹，居然还拿了冠军",
-    "game": "PUBG",
-    "heatScore": 97,
-    "cumulativeNotes": 4235,
-    "last24hGrowth": 6203,
-    "lifecycle": "上升期",
-    "channelType": "社区热点",
-    "direction": "电竞赛事",
-    "internalNotes": [
-      {
-        "title": "在职业赛场上带妹，居然还拿了冠",
-        "url": "https://www.xiaohongshu.com/explore/69439b2c000000001e016eae",
-        "platform": "小红书"
-      }
-    ],
-    "generatedAt": "2026-05-22T15:04:50.974059"
+    "title": "原皮形态已经很完美了，不需要再...",
+    "game": "英雄联盟",
+    "heatScore": 47,
+    "cumulativeNotes": 237,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 2376,
+    "commentCount": 181,
+    "ageHours": 8.1,
+    "analysis": "社区热点内容 · 发现期(热度47) · 2376赞/181评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a1902810000000038037f9f",
+    "generatedAt": "2026-05-29T20:04:46.090307"
+  },
+  {
+    "id": "h10",
+    "title": "重生之我在峡谷当猫🐱",
+    "game": "英雄联盟",
+    "heatScore": 47,
+    "cumulativeNotes": 242,
+    "lifecycle": "萌芽期",
+    "noteCount": 1,
+    "likeCount": 2421,
+    "commentCount": 156,
+    "ageHours": 25.1,
+    "analysis": "社区热点内容 · 发现期(热度47) · 2421赞/156评，近期社区关注度较高",
+    "noteUrl": "https://www.xiaohongshu.com/explore/6a180cc4000000000803e35e",
+    "generatedAt": "2026-05-29T20:04:46.090331"
   }
 ]

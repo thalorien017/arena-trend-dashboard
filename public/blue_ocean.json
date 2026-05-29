@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "bo1",
+    "title": "当朋友突然约你七点上线吃鸡时",
+    "game": "和平精英",
+    "direction": "综合资讯",
+    "likes": 310701,
+    "comments": 5280,
+    "avgSupply": 0,
+    "supplyGap": true,
+    "blueScore": 100,
+    "sourceNoteUrl": "https://www.xiaohongshu.com/explore/68834926000000001d00f39c",
+    "generatedAt": "2026-05-29T20:04:44.969152"
+  },
+  {
+    "id": "bo2",
+    "title": "不愧是地球online第二赛季老玩家",
+    "game": "三角洲行动",
+    "direction": "版本更新",
+    "likes": 247950,
+    "comments": 725,
+    "avgSupply": 0,
+    "supplyGap": true,
+    "blueScore": 100,
+    "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6870ea350000000010010559",
+    "generatedAt": "2026-05-29T20:04:50.205714"
+  },
+  {
+    "id": "bo3",
+    "title": "我就没见过有正常的名字😂",
+    "game": "英雄联盟",
+    "direction": "综合资讯",
+    "likes": 9780,
+    "comments": 1642,
+    "avgSupply": 0,
+    "supplyGap": true,
+    "blueScore": 100,
+    "sourceNoteUrl": "https://www.xiaohongshu.com/explore/625a5cd5000000002103e7e4",
+    "generatedAt": "2026-05-29T20:04:58.453547"
+  }
+]
