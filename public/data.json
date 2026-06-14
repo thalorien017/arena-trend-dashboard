@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T18:05:33.321186",
+  "generatedAt": "2026-06-14T19:05:26.229535",
   "refreshInterval": "1h",
   "nextRefresh": "整点自动刷新",
   "boards": {
@@ -10,17 +10,17 @@
         "game": "英雄联盟",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.75,
-        "commentCount": 846,
-        "likeCount": 1127,
+        "commentToLikeRatio": 0.74,
+        "commentCount": 892,
+        "likeCount": 1207,
         "tgi": "女性向",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2e1a010000000022025d40",
         "topComments": [],
         "sampleNotes": [],
         "noteCount": 1,
-        "analysis": "社区热点讨论 · 讨论质量较高（评赞比0.75），评论区活跃度明显超过内容本身",
-        "suggestion": "围绕\"玩不起就不要搞LOL约德尔人团\"创作相关内容 · 讨论活跃(评论846) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.320985"
+        "analysis": "社区热点讨论 · 讨论质量较高（评赞比0.74），评论区活跃度明显超过内容本身",
+        "suggestion": "围绕\"玩不起就不要搞LOL约德尔人团\"创作相关内容 · 讨论活跃(评论892) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-14T19:05:26.229351"
       },
       {
         "id": "ds2",
@@ -38,7 +38,7 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量较高（评赞比0.71），评论区活跃度明显超过内容本身",
         "suggestion": "围绕\"TI2026门票6月10日发售，优先购抢\"创作相关内容 · 讨论活跃(评论333) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321015"
+        "generatedAt": "2026-06-14T19:05:26.229377"
       },
       {
         "id": "ds3",
@@ -56,7 +56,7 @@
         "noteCount": 1,
         "analysis": "排行/对比话题讨论 · 讨论质量中等偏上（评赞比0.42），潜在讨论信号",
         "suggestion": "围绕\"26年第12周TOP100手游流水排行!\"创作相关内容 · 讨论活跃(评论97) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321028"
+        "generatedAt": "2026-06-14T19:05:26.229390"
       },
       {
         "id": "ds4",
@@ -74,7 +74,7 @@
         "noteCount": 1,
         "analysis": "排行/对比话题讨论 · 讨论质量中等偏上（评赞比0.42），潜在讨论信号",
         "suggestion": "围绕\"比得过零氪最强轻狙M200-幻神吗？\"创作相关内容 · 讨论活跃(评论95) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321038"
+        "generatedAt": "2026-06-14T19:05:26.229400"
       },
       {
         "id": "ds5",
@@ -92,7 +92,7 @@
         "noteCount": 1,
         "analysis": "排行/对比话题讨论 · 讨论质量中等偏上（评赞比0.36），潜在讨论信号",
         "suggestion": "围绕\"第一人称射击游戏排行榜前十名\"创作相关内容 · 讨论活跃(评论379) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321048"
+        "generatedAt": "2026-06-14T19:05:26.229410"
       },
       {
         "id": "ds6",
@@ -110,7 +110,7 @@
         "noteCount": 1,
         "analysis": "版本更新讨论 · 讨论质量中等偏上（评赞比0.33），潜在讨论信号",
         "suggestion": "围绕\"上海TI直邀公告\"创作相关内容 · 讨论活跃(评论235) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321057"
+        "generatedAt": "2026-06-14T19:05:26.229419"
       },
       {
         "id": "ds7",
@@ -120,7 +120,7 @@
         "signalType": "讨论苗头",
         "commentToLikeRatio": 0.33,
         "commentCount": 136,
-        "likeCount": 408,
+        "likeCount": 410,
         "tgi": "均衡",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2b7827000000000803dec8",
         "topComments": [],
@@ -128,7 +128,7 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.33），潜在讨论信号",
         "suggestion": "围绕\"《王者荣耀世界》BW 2026 参展确认\"创作相关内容 · 讨论活跃(评论136) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321066"
+        "generatedAt": "2026-06-14T19:05:26.229428"
       },
       {
         "id": "ds8",
@@ -146,7 +146,7 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.32），潜在讨论信号",
         "suggestion": "围绕\"PUBG我终于刷到了传说天命圈\"创作相关内容 · 讨论活跃(评论85) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321080"
+        "generatedAt": "2026-06-14T19:05:26.229443"
       },
       {
         "id": "ds9",
@@ -155,16 +155,16 @@
         "board": "discussion",
         "signalType": "讨论苗头",
         "commentToLikeRatio": 0.32,
-        "commentCount": 328,
-        "likeCount": 1026,
+        "commentCount": 329,
+        "likeCount": 1029,
         "tgi": "均衡",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2b7b820000000035032182",
         "topComments": [],
         "sampleNotes": [],
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.32），潜在讨论信号",
-        "suggestion": "围绕\"BILIBILIWORLD 2026 参\"创作相关内容 · 讨论活跃(评论328) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321090"
+        "suggestion": "围绕\"BILIBILIWORLD 2026 参\"创作相关内容 · 讨论活跃(评论329) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-14T19:05:26.229453"
       },
       {
         "id": "ds10",
@@ -182,7 +182,7 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.31），潜在讨论信号",
         "suggestion": "围绕\"恭喜小鸽子和rtz！\"创作相关内容 · 讨论活跃(评论113) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321098"
+        "generatedAt": "2026-06-14T19:05:26.229461"
       },
       {
         "id": "ds11",
@@ -200,7 +200,7 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.3），讨论正在发酵初期",
         "suggestion": "围绕\"电竞人设2.0\"创作相关内容 · 讨论活跃(评论68) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321106"
+        "generatedAt": "2026-06-14T19:05:26.229470"
       },
       {
         "id": "ds12",
@@ -208,17 +208,17 @@
         "game": "暗区突围",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.25,
-        "commentCount": 145,
-        "likeCount": 580,
+        "commentToLikeRatio": 0.24,
+        "commentCount": 180,
+        "likeCount": 750,
         "tgi": "均衡",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2e21b5000000001700b463",
         "topComments": [],
         "sampleNotes": [],
         "noteCount": 1,
-        "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.25），讨论正在发酵初期",
-        "suggestion": "围绕\"你准备好了吗？和我一起三角洲行动吧！\"创作相关内容 · 讨论活跃(评论145) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321115"
+        "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.24），讨论正在发酵初期",
+        "suggestion": "围绕\"你准备好了吗？和我一起三角洲行动吧！\"创作相关内容 · 讨论活跃(评论180) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-14T19:05:26.229478"
       },
       {
         "id": "ds13",
@@ -236,25 +236,25 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.22），讨论正在发酵初期",
         "suggestion": "围绕\"全球首场DOTA2交响音乐会即将奏响\"创作相关内容 · 讨论活跃(评论71) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321123"
+        "generatedAt": "2026-06-14T19:05:26.229486"
       },
       {
         "id": "ds14",
-        "title": "无畏契约x张家界",
-        "game": "无畏契约",
+        "title": "我听见你心中那动人的天籁",
+        "game": "王者荣耀",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.17,
-        "commentCount": 52,
-        "likeCount": 313,
-        "tgi": "均衡",
-        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2e5ff80000000015025a8b",
+        "commentToLikeRatio": 0.19,
+        "commentCount": 111,
+        "likeCount": 587,
+        "tgi": "女性向",
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2bc2c700000000170097a4",
         "topComments": [],
         "sampleNotes": [],
         "noteCount": 1,
-        "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.17），讨论正在发酵初期",
-        "suggestion": "围绕\"无畏契约x张家界\"创作相关内容 · 讨论活跃(评论52) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321131"
+        "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.19），讨论正在发酵初期",
+        "suggestion": "围绕\"我听见你心中那动人的天籁\"创作相关内容 · 讨论活跃(评论111) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-14T19:05:26.229494"
       },
       {
         "id": "ds15",
@@ -263,16 +263,16 @@
         "board": "discussion",
         "signalType": "讨论苗头",
         "commentToLikeRatio": 0.16,
-        "commentCount": 44,
-        "likeCount": 280,
+        "commentCount": 47,
+        "likeCount": 285,
         "tgi": "均衡",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2d7c2a000000003503beec",
         "topComments": [],
         "sampleNotes": [],
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.16），讨论正在发酵初期",
-        "suggestion": "围绕\"载物ZywOo向神父s1mple忏悔：不\"创作相关内容 · 讨论活跃(评论44) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-14T18:05:33.321141"
+        "suggestion": "围绕\"载物ZywOo向神父s1mple忏悔：不\"创作相关内容 · 讨论活跃(评论47) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-14T19:05:26.229504"
       }
     ],
     "blueOcean": [
@@ -287,7 +287,7 @@
         "supplyGap": true,
         "blueScore": 100,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/68834926000000001d00f39c",
-        "generatedAt": "2026-06-14T18:04:45.137633",
+        "generatedAt": "2026-06-14T19:04:46.852485",
         "analysis": "[🔵 供给缺口] 当朋友突然约你七点上线吃鸡时 — 综合资讯方向的蓝海信号，内容供给极少，竞争小，建议尽快切入"
       },
       {
@@ -295,13 +295,13 @@
         "title": "不愧是地球online第二赛季老玩家",
         "game": "三角洲行动",
         "direction": "版本更新",
-        "likes": 248243,
+        "likes": 248245,
         "comments": 725,
         "avgSupply": 0,
         "supplyGap": true,
         "blueScore": 100,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6870ea350000000010010559",
-        "generatedAt": "2026-06-14T18:04:50.728517",
+        "generatedAt": "2026-06-14T19:04:52.354969",
         "analysis": "[🔵 供给缺口] 不愧是地球online第二赛季老玩家 — 版本更新方向的蓝海信号，内容供给极少，竞争小，建议尽快切入"
       },
       {
@@ -315,201 +315,201 @@
         "supplyGap": true,
         "blueScore": 100,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/625a5cd5000000002103e7e4",
-        "generatedAt": "2026-06-14T18:04:55.913525",
+        "generatedAt": "2026-06-14T19:04:57.060790",
         "analysis": "[🔵 供给缺口] 我就没见过有正常的名字😂 — 综合资讯方向的蓝海信号，内容供给极少，竞争小，建议尽快切入"
       }
     ],
     "hotspots": [
       {
-        "id": "h18",
+        "id": "h16",
         "title": "郑永康 我真的保证你是天使",
         "game": "无畏契约",
         "heatScore": 60,
         "cumulativeNotes": 1,
         "lifecycle": "上升期",
         "noteCount": 1,
-        "likeCount": 14892,
-        "commentCount": 222,
-        "ageHours": 11.2,
+        "likeCount": 15946,
+        "commentCount": 234,
+        "ageHours": 12.2,
         "analysis": "郑永康 我真的保证你是天使 — 无畏契约的话题内容，热度分60，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2ddf3f00000000170087c5",
-        "generatedAt": "2026-06-14T18:04:45.835483",
+        "generatedAt": "2026-06-14T19:04:48.433022",
         "noteDetails": []
       },
       {
-        "id": "h11",
+        "id": "h10",
         "title": "我们成功了!核电站隐藏好结局-天下无核",
         "game": "三角洲行动",
         "heatScore": 59,
         "cumulativeNotes": 1,
         "lifecycle": "上升期",
         "noteCount": 1,
-        "likeCount": 19737,
-        "commentCount": 277,
-        "ageHours": 18.8,
+        "likeCount": 20444,
+        "commentCount": 283,
+        "ageHours": 19.8,
         "analysis": "我们成功了!核电站隐藏好结局-天下无核 — 三角洲行动的话题内容，热度分59，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2d7449000000002202daf0",
-        "generatedAt": "2026-06-14T18:04:41.312726",
+        "generatedAt": "2026-06-14T19:04:44.077880",
         "noteDetails": []
       },
       {
-        "id": "h23",
+        "id": "h21",
         "title": "农场当焊武帝的来",
         "game": "暗区突围",
         "heatScore": 59,
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 4516,
-        "commentCount": 283,
-        "ageHours": 67.5,
+        "likeCount": 4515,
+        "commentCount": 284,
+        "ageHours": 68.5,
         "analysis": "农场当焊武帝的来 — 暗区突围的话题内容，热度分59，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2ac78f0000000008027f3b",
-        "generatedAt": "2026-06-14T18:04:49.797567",
+        "generatedAt": "2026-06-14T19:04:52.161643",
+        "noteDetails": []
+      },
+      {
+        "id": "h12",
+        "title": "好久不见",
+        "game": "英雄联盟",
+        "heatScore": 57,
+        "cumulativeNotes": 1,
+        "lifecycle": "萌芽期",
+        "noteCount": 1,
+        "likeCount": 3003,
+        "commentCount": 527,
+        "ageHours": 18.4,
+        "analysis": "好久不见 — 英雄联盟的话题内容，热度分57，互动数据表现优异",
+        "noteUrl": "https://www.xiaohongshu.com/explore/6a2d879b00000000160270cd",
+        "generatedAt": "2026-06-14T19:04:46.817194",
+        "noteDetails": []
+      },
+      {
+        "id": "h13",
+        "title": "EDG被“防诈尸”式鞭尸，康康赛场质问对手",
+        "game": "无畏契约",
+        "heatScore": 52,
+        "cumulativeNotes": 1,
+        "lifecycle": "萌芽期",
+        "noteCount": 1,
+        "likeCount": 4813,
+        "commentCount": 85,
+        "ageHours": 4.3,
+        "analysis": "EDG被“防诈尸”式鞭尸，康康赛场质问对手 — 无畏契约的话题内容，热度分52，互动数据表现优异",
+        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e4e8a0000000007021eae",
+        "generatedAt": "2026-06-14T19:04:48.432972",
         "noteDetails": []
       },
       {
         "id": "h14",
-        "title": "好久不见",
-        "game": "英雄联盟",
-        "heatScore": 56,
+        "title": "不愧是世一突，进点前要烟就是快",
+        "game": "无畏契约",
+        "heatScore": 52,
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 2979,
-        "commentCount": 524,
-        "ageHours": 17.4,
-        "analysis": "好久不见 — 英雄联盟的话题内容，热度分56，互动数据表现优异",
-        "noteUrl": "https://www.xiaohongshu.com/explore/6a2d879b00000000160270cd",
-        "generatedAt": "2026-06-14T18:04:44.553740",
+        "likeCount": 3059,
+        "commentCount": 77,
+        "ageHours": 6.5,
+        "analysis": "不愧是世一突，进点前要烟就是快 — 无畏契约的话题内容，热度分52，互动数据表现优异",
+        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e2ef3000000002202ccca",
+        "generatedAt": "2026-06-14T19:04:48.432992",
         "noteDetails": []
       },
       {
-        "id": "h2",
-        "title": "神秘出餐口",
-        "game": "王者荣耀",
-        "heatScore": 51,
-        "cumulativeNotes": 1,
-        "lifecycle": "萌芽期",
-        "noteCount": 1,
-        "likeCount": 5445,
-        "commentCount": 116,
-        "ageHours": 4.8,
-        "analysis": "神秘出餐口 — 王者荣耀的话题内容，热度分51，互动数据表现优异",
-        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e38940000000008027657",
-        "generatedAt": "2026-06-14T18:04:37.082147",
-        "noteDetails": []
-      },
-      {
-        "id": "h3",
-        "title": "终于看到正常的兄弟关系了",
-        "game": "王者荣耀",
-        "heatScore": 51,
-        "cumulativeNotes": 1,
-        "lifecycle": "萌芽期",
-        "noteCount": 1,
-        "likeCount": 5485,
-        "commentCount": 48,
-        "ageHours": 4.9,
-        "analysis": "终于看到正常的兄弟关系了 — 王者荣耀的话题内容，热度分51，互动数据表现优异",
-        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e380c000000001c025fb5",
-        "generatedAt": "2026-06-14T18:04:37.082162",
-        "noteDetails": []
-      },
-      {
-        "id": "h6",
+        "id": "h5",
         "title": "饿就吃饭",
         "game": "和平精英",
         "heatScore": 51,
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 5986,
-        "commentCount": 42,
-        "ageHours": 20.3,
+        "likeCount": 6147,
+        "commentCount": 43,
+        "ageHours": 21.3,
         "analysis": "饿就吃饭 — 和平精英的话题内容，热度分51，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2d5ed9000000001502437e",
-        "generatedAt": "2026-06-14T18:04:38.866337",
+        "generatedAt": "2026-06-14T19:04:41.840474",
         "noteDetails": []
       },
       {
-        "id": "h20",
+        "id": "h9",
+        "title": "有我在 天就塌不下来",
+        "game": "三角洲行动",
+        "heatScore": 51,
+        "cumulativeNotes": 1,
+        "lifecycle": "萌芽期",
+        "noteCount": 1,
+        "likeCount": 3544,
+        "commentCount": 54,
+        "ageHours": 13.4,
+        "analysis": "有我在 天就塌不下来 — 三角洲行动的话题内容，热度分51，互动数据表现优异",
+        "noteUrl": "https://www.xiaohongshu.com/explore/6a2dce87000000000702b875",
+        "generatedAt": "2026-06-14T19:04:44.077867",
+        "noteDetails": []
+      },
+      {
+        "id": "h18",
         "title": "倒立（？",
         "game": "火影忍者",
         "heatScore": 51,
         "cumulativeNotes": 1,
         "lifecycle": "上升期",
         "noteCount": 1,
-        "likeCount": 9179,
-        "commentCount": 79,
-        "ageHours": 22.7,
+        "likeCount": 10375,
+        "commentCount": 84,
+        "ageHours": 23.7,
         "analysis": "倒立（？ — 火影忍者的话题内容，热度分51，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2d3d73000000000803321f",
-        "generatedAt": "2026-06-14T18:04:47.405346",
+        "generatedAt": "2026-06-14T19:04:49.766691",
         "noteDetails": []
       },
       {
-        "id": "h7",
+        "id": "h2",
+        "title": "《一切为了游戏的胜利》1.0",
+        "game": "王者荣耀",
+        "heatScore": 50,
+        "cumulativeNotes": 1,
+        "lifecycle": "萌芽期",
+        "noteCount": 1,
+        "likeCount": 3228,
+        "commentCount": 84,
+        "ageHours": 4.5,
+        "analysis": "《一切为了游戏的胜利》1.0 — 王者荣耀的话题内容，热度分50，互动数据表现优异",
+        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e4ad20000000015025dc9",
+        "generatedAt": "2026-06-14T19:04:39.874036",
+        "noteDetails": []
+      },
+      {
+        "id": "h6",
         "title": "三角洲大厅现状belike（4.0）：",
         "game": "三角洲行动",
         "heatScore": 50,
         "cumulativeNotes": 1,
         "lifecycle": "上升期",
         "noteCount": 1,
-        "likeCount": 8632,
+        "likeCount": 9218,
         "commentCount": 28,
-        "ageHours": 8.0,
+        "ageHours": 9.0,
         "analysis": "三角洲大厅现状belike（4.0）： — 三角洲行动的话题内容，热度分50，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2d801f000000003502d72a",
-        "generatedAt": "2026-06-14T18:04:41.312661",
+        "generatedAt": "2026-06-14T19:04:44.077815",
         "noteDetails": []
       },
       {
-        "id": "h22",
+        "id": "h20",
         "title": "当你摄影连着小孩哥一起军训",
         "game": "火影忍者",
         "heatScore": 50,
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 5779,
-        "commentCount": 37,
-        "ageHours": 24.8,
+        "likeCount": 6288,
+        "commentCount": 38,
+        "ageHours": 25.8,
         "analysis": "当你摄影连着小孩哥一起军训 — 火影忍者的话题内容，热度分50，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2d20a50000000021009789",
-        "generatedAt": "2026-06-14T18:04:47.405376",
-        "noteDetails": []
-      },
-      {
-        "id": "h10",
-        "title": "有我在 天就塌不下来",
-        "game": "三角洲行动",
-        "heatScore": 49,
-        "cumulativeNotes": 1,
-        "lifecycle": "萌芽期",
-        "noteCount": 1,
-        "likeCount": 3253,
-        "commentCount": 50,
-        "ageHours": 12.4,
-        "analysis": "有我在 天就塌不下来 — 三角洲行动的话题内容，热度分49，互动数据表现优异",
-        "noteUrl": "https://www.xiaohongshu.com/explore/6a2dce87000000000702b875",
-        "generatedAt": "2026-06-14T18:04:41.312713",
-        "noteDetails": []
-      },
-      {
-        "id": "h15",
-        "title": "EDG被“防诈尸”式鞭尸，康康赛场质问对手",
-        "game": "无畏契约",
-        "heatScore": 49,
-        "cumulativeNotes": 1,
-        "lifecycle": "萌芽期",
-        "noteCount": 1,
-        "likeCount": 3164,
-        "commentCount": 55,
-        "ageHours": 3.3,
-        "analysis": "EDG被“防诈尸”式鞭尸，康康赛场质问对手 — 无畏契约的话题内容，热度分49，互动数据表现优异",
-        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e4e8a0000000007021eae",
-        "generatedAt": "2026-06-14T18:04:45.835431",
+        "generatedAt": "2026-06-14T19:04:49.766723",
         "noteDetails": []
       }
     ],
@@ -520,18 +520,18 @@
         "game": "王者荣耀",
         "tag": "挑战者杯",
         "heatScore": 46,
-        "totalLikes": 4691,
+        "totalLikes": 4692,
         "noteCount": 1,
         "sampleNotes": [
           {
             "title": "成都AG超玩会·挑战者杯决赛晋级之路",
             "url": "https://www.xiaohongshu.com/explore/6a0fceb50000000006037154",
-            "likes": 4691
+            "likes": 4692
           }
         ],
         "analysis": "AG超玩会 挑战者杯 — 王者荣耀赛事相关热点，值得关注社区讨论走向",
         "suggestion": "促产方向：赛事解读图文 / 精彩片段剪辑 / 选手故事",
-        "generatedAt": "2026-06-14T18:04:39.757998"
+        "generatedAt": "2026-06-14T19:04:43.106622"
       },
       {
         "id": "e2",
@@ -550,7 +550,7 @@
         ],
         "analysis": "三角洲行动 职业联赛 — 三角洲行动赛事相关热点，值得关注社区讨论走向",
         "suggestion": "促产方向：赛事解读图文 / 精彩片段剪辑 / 选手故事",
-        "generatedAt": "2026-06-14T18:04:49.432337"
+        "generatedAt": "2026-06-14T19:04:51.028451"
       }
     ]
   },
