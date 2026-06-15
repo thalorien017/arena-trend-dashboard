@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T16:05:40.286761",
+  "generatedAt": "2026-06-15T17:05:41.463552",
   "refreshInterval": "1h",
   "nextRefresh": "整点自动刷新",
   "boards": {
@@ -10,17 +10,17 @@
         "game": "金铲铲之战",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.78,
-        "commentCount": 213,
-        "likeCount": 274,
+        "commentToLikeRatio": 0.74,
+        "commentCount": 222,
+        "likeCount": 298,
         "tgi": "均衡",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2e6835000000001702c6da",
         "topComments": [],
         "sampleNotes": [],
         "noteCount": 1,
-        "analysis": "社区热点讨论 · 讨论质量较高（评赞比0.78），评论区活跃度明显超过内容本身",
-        "suggestion": "围绕\"为什么高知群体会沉迷金铲铲之战？\"创作相关内容 · 讨论活跃(评论213) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286565"
+        "analysis": "社区热点讨论 · 讨论质量较高（评赞比0.74），评论区活跃度明显超过内容本身",
+        "suggestion": "围绕\"为什么高知群体会沉迷金铲铲之战？\"创作相关内容 · 讨论活跃(评论222) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-15T17:05:41.463368"
       },
       {
         "id": "ds2",
@@ -38,7 +38,7 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量较高（评赞比0.71），评论区活跃度明显超过内容本身",
         "suggestion": "围绕\"TI2026门票6月10日发售，优先购抢\"创作相关内容 · 讨论活跃(评论332) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286595"
+        "generatedAt": "2026-06-15T17:05:41.463398"
       },
       {
         "id": "ds3",
@@ -46,38 +46,20 @@
         "game": "和平精英",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.7,
-        "commentCount": 509,
-        "likeCount": 722,
+        "commentToLikeRatio": 0.66,
+        "commentCount": 544,
+        "likeCount": 824,
         "tgi": "均衡",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2f609a0000000007020860",
         "topComments": [],
         "sampleNotes": [],
         "noteCount": 1,
-        "analysis": "社区热点讨论 · 讨论质量较高（评赞比0.7），评论区活跃度明显超过内容本身",
-        "suggestion": "围绕\"AppStore充值限时大羊毛来啦\"创作相关内容 · 讨论活跃(评论509) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286605"
+        "analysis": "社区热点讨论 · 讨论质量较高（评赞比0.66），评论区活跃度明显超过内容本身",
+        "suggestion": "围绕\"AppStore充值限时大羊毛来啦\"创作相关内容 · 讨论活跃(评论544) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-15T17:05:41.463408"
       },
       {
         "id": "ds4",
-        "title": "yinsu谈s0pp遭受网暴",
-        "game": "无畏契约",
-        "board": "discussion",
-        "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.42,
-        "commentCount": 577,
-        "likeCount": 1387,
-        "tgi": "均衡",
-        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2f74170000000021018290",
-        "topComments": [],
-        "sampleNotes": [],
-        "noteCount": 1,
-        "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.42），潜在讨论信号",
-        "suggestion": "围绕\"yinsu谈s0pp遭受网暴\"创作相关内容 · 讨论活跃(评论577) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286615"
-      },
-      {
-        "id": "ds5",
         "title": "26年第12周TOP100手游流水排行!大盘止跌！",
         "game": "穿越火线：枪战王者",
         "board": "discussion",
@@ -92,10 +74,10 @@
         "noteCount": 1,
         "analysis": "排行/对比话题讨论 · 讨论质量中等偏上（评赞比0.42），潜在讨论信号",
         "suggestion": "围绕\"26年第12周TOP100手游流水排行!\"创作相关内容 · 讨论活跃(评论97) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286628"
+        "generatedAt": "2026-06-15T17:05:41.463420"
       },
       {
-        "id": "ds6",
+        "id": "ds5",
         "title": "第一人称射击游戏排行榜前十名",
         "game": "穿越火线：枪战王者",
         "board": "discussion",
@@ -110,10 +92,10 @@
         "noteCount": 1,
         "analysis": "排行/对比话题讨论 · 讨论质量中等偏上（评赞比0.36），潜在讨论信号",
         "suggestion": "围绕\"第一人称射击游戏排行榜前十名\"创作相关内容 · 讨论活跃(评论379) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286638"
+        "generatedAt": "2026-06-15T17:05:41.463430"
       },
       {
-        "id": "ds7",
+        "id": "ds6",
         "title": "PUBG我终于刷到了传说天命圈",
         "game": "PUBG",
         "board": "discussion",
@@ -128,10 +110,10 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.33），潜在讨论信号",
         "suggestion": "围绕\"PUBG我终于刷到了传说天命圈\"创作相关内容 · 讨论活跃(评论88) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286646"
+        "generatedAt": "2026-06-15T17:05:41.463439"
       },
       {
-        "id": "ds8",
+        "id": "ds7",
         "title": "上海TI直邀公告",
         "game": "DOTA2",
         "board": "discussion",
@@ -146,17 +128,17 @@
         "noteCount": 1,
         "analysis": "版本更新讨论 · 讨论质量中等偏上（评赞比0.33），潜在讨论信号",
         "suggestion": "围绕\"上海TI直邀公告\"创作相关内容 · 讨论活跃(评论235) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286661"
+        "generatedAt": "2026-06-15T17:05:41.463448"
       },
       {
-        "id": "ds9",
+        "id": "ds8",
         "title": "BILIBILIWORLD 2026 参展确认！",
         "game": "王者万象棋",
         "board": "discussion",
         "signalType": "讨论苗头",
         "commentToLikeRatio": 0.33,
         "commentCount": 357,
-        "likeCount": 1082,
+        "likeCount": 1084,
         "tgi": "均衡",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2b7b820000000035032182",
         "topComments": [],
@@ -164,17 +146,17 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.33），潜在讨论信号",
         "suggestion": "围绕\"BILIBILIWORLD 2026 参\"创作相关内容 · 讨论活跃(评论357) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286671"
+        "generatedAt": "2026-06-15T17:05:41.463463"
       },
       {
-        "id": "ds10",
+        "id": "ds9",
         "title": "《王者荣耀世界》BW 2026 参展确认！",
         "game": "王者万象棋",
         "board": "discussion",
         "signalType": "讨论苗头",
         "commentToLikeRatio": 0.32,
         "commentCount": 139,
-        "likeCount": 429,
+        "likeCount": 430,
         "tgi": "均衡",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2b7827000000000803dec8",
         "topComments": [],
@@ -182,17 +164,17 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.32），潜在讨论信号",
         "suggestion": "围绕\"《王者荣耀世界》BW 2026 参展确认\"创作相关内容 · 讨论活跃(评论139) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286680"
+        "generatedAt": "2026-06-15T17:05:41.463472"
       },
       {
-        "id": "ds11",
+        "id": "ds10",
         "title": "电竞人设2.0",
         "game": "PUBG",
         "board": "discussion",
         "signalType": "讨论苗头",
         "commentToLikeRatio": 0.31,
         "commentCount": 74,
-        "likeCount": 236,
+        "likeCount": 237,
         "tgi": "男性向",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2abd980000000021017d3a",
         "topComments": [],
@@ -200,10 +182,10 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.31），潜在讨论信号",
         "suggestion": "围绕\"电竞人设2.0\"创作相关内容 · 讨论活跃(评论74) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286688"
+        "generatedAt": "2026-06-15T17:05:41.463480"
       },
       {
-        "id": "ds12",
+        "id": "ds11",
         "title": "恭喜小鸽子和rtz！",
         "game": "DOTA2",
         "board": "discussion",
@@ -218,25 +200,43 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等偏上（评赞比0.31），潜在讨论信号",
         "suggestion": "围绕\"恭喜小鸽子和rtz！\"创作相关内容 · 讨论活跃(评论113) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286695"
+        "generatedAt": "2026-06-15T17:05:41.463488"
       },
       {
-        "id": "ds13",
+        "id": "ds12",
         "title": "关于我s17用一套阵容上到宗师九百分这件事",
         "game": "金铲铲之战",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.29,
-        "commentCount": 133,
-        "likeCount": 461,
+        "commentToLikeRatio": 0.28,
+        "commentCount": 134,
+        "likeCount": 474,
         "tgi": "男性向",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2e3584000000000803e46d",
         "topComments": [],
         "sampleNotes": [],
         "noteCount": 1,
-        "analysis": "攻略/方法讨论 · 讨论质量中等（评赞比0.29），讨论正在发酵初期",
-        "suggestion": "围绕\"关于我s17用一套阵容上到宗师九百分这件\"创作相关内容 · 讨论活跃(评论133) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286704"
+        "analysis": "攻略/方法讨论 · 讨论质量中等（评赞比0.28），讨论正在发酵初期",
+        "suggestion": "围绕\"关于我s17用一套阵容上到宗师九百分这件\"创作相关内容 · 讨论活跃(评论134) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-15T17:05:41.463497"
+      },
+      {
+        "id": "ds13",
+        "title": "★采访返图★",
+        "game": "无畏契约",
+        "board": "discussion",
+        "signalType": "讨论苗头",
+        "commentToLikeRatio": 0.24,
+        "commentCount": 51,
+        "likeCount": 217,
+        "tgi": "均衡",
+        "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2f0cc10000000016026bcf",
+        "topComments": [],
+        "sampleNotes": [],
+        "noteCount": 1,
+        "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.24），讨论正在发酵初期",
+        "suggestion": "围绕\"★采访返图★\"创作相关内容 · 讨论活跃(评论51) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-15T17:05:41.463505"
       },
       {
         "id": "ds14",
@@ -254,7 +254,7 @@
         "noteCount": 1,
         "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.22），讨论正在发酵初期",
         "suggestion": "围绕\"全球首场DOTA2交响音乐会即将奏响\"创作相关内容 · 讨论活跃(评论71) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286712"
+        "generatedAt": "2026-06-15T17:05:41.463513"
       },
       {
         "id": "ds15",
@@ -262,17 +262,17 @@
         "game": "无畏契约",
         "board": "discussion",
         "signalType": "讨论苗头",
-        "commentToLikeRatio": 0.21,
-        "commentCount": 264,
-        "likeCount": 1254,
+        "commentToLikeRatio": 0.18,
+        "commentCount": 366,
+        "likeCount": 1997,
         "tgi": "均衡",
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6a2f869800000000170291c8",
         "topComments": [],
         "sampleNotes": [],
         "noteCount": 1,
-        "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.21），讨论正在发酵初期",
-        "suggestion": "围绕\"哪个id更豪\"创作相关内容 · 讨论活跃(评论264) — 建议在话题热度消退前完成内容准备",
-        "generatedAt": "2026-06-15T16:05:40.286721"
+        "analysis": "社区热点讨论 · 讨论质量中等（评赞比0.18），讨论正在发酵初期",
+        "suggestion": "围绕\"哪个id更豪\"创作相关内容 · 讨论活跃(评论366) — 建议在话题热度消退前完成内容准备",
+        "generatedAt": "2026-06-15T17:05:41.463522"
       }
     ],
     "blueOcean": [
@@ -287,7 +287,7 @@
         "supplyGap": true,
         "blueScore": 100,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/68834926000000001d00f39c",
-        "generatedAt": "2026-06-15T16:04:47.348293",
+        "generatedAt": "2026-06-15T17:04:44.660091",
         "analysis": "[🔵 供给缺口] 当朋友突然约你七点上线吃鸡时 — 综合资讯方向的蓝海信号，内容供给极少，竞争小，建议尽快切入"
       },
       {
@@ -301,7 +301,7 @@
         "supplyGap": true,
         "blueScore": 100,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/6870ea350000000010010559",
-        "generatedAt": "2026-06-15T16:04:54.112715",
+        "generatedAt": "2026-06-15T17:04:50.551303",
         "analysis": "[🔵 供给缺口] 不愧是地球online第二赛季老玩家 — 版本更新方向的蓝海信号，内容供给极少，竞争小，建议尽快切入"
       },
       {
@@ -315,7 +315,7 @@
         "supplyGap": true,
         "blueScore": 100,
         "sourceNoteUrl": "https://www.xiaohongshu.com/explore/625a5cd5000000002103e7e4",
-        "generatedAt": "2026-06-15T16:05:03.389118",
+        "generatedAt": "2026-06-15T17:04:59.168903",
         "analysis": "[🔵 供给缺口] 我就没见过有正常的名字😂 — 综合资讯方向的蓝海信号，内容供给极少，竞争小，建议尽快切入"
       }
     ],
@@ -328,12 +328,12 @@
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 4298,
-        "commentCount": 551,
-        "ageHours": 21.5,
+        "likeCount": 4308,
+        "commentCount": 554,
+        "ageHours": 22.5,
         "analysis": "黄子韬直播也被FUT鞭尸气晕了 — 无畏契约的话题内容，热度分66，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2e8355000000000702b40b",
-        "generatedAt": "2026-06-15T16:04:50.128526",
+        "generatedAt": "2026-06-15T17:04:47.752790",
         "noteDetails": []
       },
       {
@@ -344,28 +344,28 @@
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 3902,
-        "commentCount": 1068,
-        "ageHours": 5.5,
+        "likeCount": 4690,
+        "commentCount": 1269,
+        "ageHours": 6.5,
         "analysis": "我的王者id真的很x暗示吗 — 王者荣耀的话题内容，热度分64，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2f646d000000000f032ba3",
-        "generatedAt": "2026-06-15T16:04:37.459197",
+        "generatedAt": "2026-06-15T17:04:37.717469",
         "noteDetails": []
       },
       {
-        "id": "h4",
-        "title": "我笑的好难受",
-        "game": "王者荣耀",
-        "heatScore": 64,
+        "id": "h8",
+        "title": "血泪避雷，八连炸后老板痛失浮木",
+        "game": "三角洲行动",
+        "heatScore": 62,
         "cumulativeNotes": 1,
-        "lifecycle": "上升期",
+        "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 9042,
-        "commentCount": 877,
-        "ageHours": 7.3,
-        "analysis": "我笑的好难受 — 王者荣耀的话题内容，热度分64，互动数据表现优异",
-        "noteUrl": "https://www.xiaohongshu.com/explore/6a2f4b7c000000001700a8e0",
-        "generatedAt": "2026-06-15T16:04:37.459230",
+        "likeCount": 3048,
+        "commentCount": 1161,
+        "ageHours": 6.7,
+        "analysis": "血泪避雷，八连炸后老板痛失浮木 — 三角洲行动的话题内容，热度分62，互动数据表现优异",
+        "noteUrl": "https://www.xiaohongshu.com/explore/6a2f61bd000000002003b1fd",
+        "generatedAt": "2026-06-15T17:04:43.313532",
         "noteDetails": []
       },
       {
@@ -376,12 +376,12 @@
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 3334,
-        "commentCount": 571,
-        "ageHours": 39.4,
+        "likeCount": 3343,
+        "commentCount": 574,
+        "ageHours": 40.4,
         "analysis": "好久不见 — 英雄联盟的话题内容，热度分62，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2d879b00000000160270cd",
-        "generatedAt": "2026-06-15T16:04:48.182590",
+        "generatedAt": "2026-06-15T17:04:46.218904",
         "noteDetails": []
       },
       {
@@ -392,12 +392,28 @@
         "cumulativeNotes": 1,
         "lifecycle": "上升期",
         "noteCount": 1,
-        "likeCount": 8135,
-        "commentCount": 209,
-        "ageHours": 21.8,
+        "likeCount": 8221,
+        "commentCount": 211,
+        "ageHours": 22.8,
         "analysis": "我心肝被欺负be like： — 无畏契约的话题内容，热度分58，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2e7f330000000006022498",
-        "generatedAt": "2026-06-15T16:04:50.128551",
+        "generatedAt": "2026-06-15T17:04:47.752815",
+        "noteDetails": []
+      },
+      {
+        "id": "h6",
+        "title": "教大家276拿下699幸运币还有额外军需币‼️",
+        "game": "和平精英",
+        "heatScore": 52,
+        "cumulativeNotes": 1,
+        "lifecycle": "萌芽期",
+        "noteCount": 1,
+        "likeCount": 3107,
+        "commentCount": 197,
+        "ageHours": 23.8,
+        "analysis": "教大家276拿下699幸运币还有额外军需币‼️ — 和平精英的话题内容，热度分52，互动数据表现优异",
+        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e7223000000001c0277f4",
+        "generatedAt": "2026-06-15T17:04:40.197383",
         "noteDetails": []
       },
       {
@@ -408,28 +424,28 @@
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 4407,
-        "commentCount": 32,
-        "ageHours": 20.8,
+        "likeCount": 4483,
+        "commentCount": 33,
+        "ageHours": 21.8,
         "analysis": "全网最吵的解说。 — 无畏契约的话题内容，热度分52，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2e8e43000000002101ad71",
-        "generatedAt": "2026-06-15T16:04:50.128507",
+        "generatedAt": "2026-06-15T17:04:47.752770",
         "noteDetails": []
       },
       {
-        "id": "h25",
-        "title": "同居以后。",
-        "game": "永劫无间",
-        "heatScore": 52,
+        "id": "h15",
+        "title": "小话唠来了",
+        "game": "无畏契约",
+        "heatScore": 51,
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 3200,
-        "commentCount": 263,
-        "ageHours": 66.5,
-        "analysis": "同居以后。 — 永劫无间的话题内容，热度分52，互动数据表现优异",
-        "noteUrl": "https://www.xiaohongshu.com/explore/6a2c049100000000220200ef",
-        "generatedAt": "2026-06-15T16:04:55.923457",
+        "likeCount": 3283,
+        "commentCount": 66,
+        "ageHours": 22.7,
+        "analysis": "小话唠来了 — 无畏契约的话题内容，热度分51，互动数据表现优异",
+        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e816e000000001702e478",
+        "generatedAt": "2026-06-15T17:04:47.752803",
         "noteDetails": []
       },
       {
@@ -440,12 +456,12 @@
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 5651,
-        "commentCount": 56,
-        "ageHours": 22.5,
+        "likeCount": 5872,
+        "commentCount": 58,
+        "ageHours": 23.5,
         "analysis": "就这样赔笑中 — 火影忍者的话题内容，热度分51，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2e75990000000017009fdf",
-        "generatedAt": "2026-06-15T16:04:51.837159",
+        "generatedAt": "2026-06-15T17:04:49.594726",
         "noteDetails": []
       },
       {
@@ -456,60 +472,44 @@
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 4567,
-        "commentCount": 55,
-        "ageHours": 4.1,
+        "likeCount": 4965,
+        "commentCount": 59,
+        "ageHours": 5.1,
         "analysis": "有人终于急了 — 王者荣耀的话题内容，热度分50，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2f7905000000001101eb5e",
-        "generatedAt": "2026-06-15T16:04:37.459157",
+        "generatedAt": "2026-06-15T17:04:37.717447",
         "noteDetails": []
       },
       {
-        "id": "h3",
+        "id": "h4",
         "title": "这样的素材终于轮到我了",
         "game": "王者荣耀",
         "heatScore": 50,
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 3346,
-        "commentCount": 9,
-        "ageHours": 6.6,
+        "likeCount": 3753,
+        "commentCount": 10,
+        "ageHours": 7.6,
         "analysis": "这样的素材终于轮到我了 — 王者荣耀的话题内容，热度分50，互动数据表现优异",
         "noteUrl": "https://www.xiaohongshu.com/explore/6a2f5539000000001003f035",
-        "generatedAt": "2026-06-15T16:04:37.459217",
+        "generatedAt": "2026-06-15T17:04:37.717496",
         "noteDetails": []
       },
       {
-        "id": "h6",
-        "title": "教大家276拿下699幸运币还有额外军需币‼️",
+        "id": "h7",
+        "title": "完了，被发现了",
         "game": "和平精英",
         "heatScore": 49,
         "cumulativeNotes": 1,
         "lifecycle": "萌芽期",
         "noteCount": 1,
-        "likeCount": 2965,
-        "commentCount": 184,
-        "ageHours": 22.8,
-        "analysis": "教大家276拿下699幸运币还有额外军需币‼️ — 和平精英的话题内容，热度分49，互动数据表现优异",
-        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e7223000000001c0277f4",
-        "generatedAt": "2026-06-15T16:04:40.912887",
-        "noteDetails": []
-      },
-      {
-        "id": "h15",
-        "title": "小话唠来了",
-        "game": "无畏契约",
-        "heatScore": 49,
-        "cumulativeNotes": 1,
-        "lifecycle": "萌芽期",
-        "noteCount": 1,
-        "likeCount": 3190,
-        "commentCount": 61,
-        "ageHours": 21.7,
-        "analysis": "小话唠来了 — 无畏契约的话题内容，热度分49，互动数据表现优异",
-        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e816e000000001702e478",
-        "generatedAt": "2026-06-15T16:04:50.128539",
+        "likeCount": 3187,
+        "commentCount": 57,
+        "ageHours": 26.0,
+        "analysis": "完了，被发现了 — 和平精英的话题内容，热度分49，互动数据表现优异",
+        "noteUrl": "https://www.xiaohongshu.com/explore/6a2e52410000000016025373",
+        "generatedAt": "2026-06-15T17:04:40.197403",
         "noteDetails": []
       }
     ],
@@ -531,7 +531,7 @@
         ],
         "analysis": "AG超玩会 挑战者杯 — 王者荣耀赛事相关热点，值得关注社区讨论走向",
         "suggestion": "促产方向：赛事解读图文 / 精彩片段剪辑 / 选手故事",
-        "generatedAt": "2026-06-15T16:04:43.476309"
+        "generatedAt": "2026-06-15T17:04:41.395329"
       },
       {
         "id": "e2",
@@ -550,7 +550,7 @@
         ],
         "analysis": "三角洲行动 职业联赛 — 三角洲行动赛事相关热点，值得关注社区讨论走向",
         "suggestion": "促产方向：赛事解读图文 / 精彩片段剪辑 / 选手故事",
-        "generatedAt": "2026-06-15T16:04:53.651759"
+        "generatedAt": "2026-06-15T17:04:50.765246"
       }
     ]
   },
@@ -559,6 +559,6 @@
     "blueOcean": 3,
     "hotspots": 12,
     "esports": 2,
-    "totalGames": 12
+    "totalGames": 11
   }
 }
